@@ -2,13 +2,14 @@
 <html lang="ru">
 <head>
  <meta charset="UTF-8">
- <meta name="viewport" content="width=980">
+ <meta name="viewport" content="width=1200">
  <title>МАГИЯ ДЕКОРА</title>
  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
- <link href='https://fonts.googleapis.com/css?family=Oranienbaum&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
- <link href='https://fonts.googleapis.com/css?family=Roboto:300,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
- <link href="css/style.css" rel="stylesheet" type='text/css'>
+ 
  <link href="css/normalize.min.css" rel="stylesheet" type='text/css'>
+ <link href='https://fonts.googleapis.com/css?family=Oranienbaum&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+ <link href='https://fonts.googleapis.com/css?family=Roboto:300,700&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+ <link href="css/style.css" rel="stylesheet" type='text/css'>
 </head>
 <body>
 <header>
