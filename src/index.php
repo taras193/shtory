@@ -5,21 +5,28 @@
  <meta name="viewport" content="width=1200">
  <title>МАГИЯ ДЕКОРА</title>
  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
- 
- <link href="css/normalize.min.css" rel="stylesheet" type='text/css'>
- <link href='https://fonts.googleapis.com/css?family=Oranienbaum&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
- <link href='https://fonts.googleapis.com/css?family=Roboto:300,700&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
- <link href="css/style.css" rel="stylesheet" type='text/css'>
+<style><? include('css/head.css'); ?></style>
+<script>!function(e,t,n){function r(){for(;u[0]&&"loaded"==u[0][l];)o=u.shift(),o[f]=!a.parentNode.insertBefore(o,a)}for(var i,s,o,u=[],a=e.scripts[0],f="onreadystatechange",l="readyState";i=n.shift();)s=e.createElement(t),"async"in a?(s.async=!1,e.head.appendChild(s)):a[l]?(u.push(s),s[f]=r):e.write("<"+t+' src="'+i+'" defer></'+t+">"),s.src=i}(document,"script",
+    ["https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js",
+    "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js",
+    "js/init.js",
+    "js/libs.min.js",
+    "js/main.js",
+    "https://maps.googleapis.com/maps/api/js?sensor=false",
+    "js/map.js"]);
+</script>
+<? include('track/head.php'); ?>
 </head>
 <body>
+<div id="loader-wrap"><div class="loader"><div class="square square--main"><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div></div></div></div>
 <header>
     <div class="wrap">
         <div class="head">
-            <a href="" class="logo">магия декора</a>
+            <span class="logo">магия декора</span>
             <p>Интерьер мечты</p>
             <div class="fone">
-                <a href="">8 800 000 99 44</a>
-                <a href="">Заказать звонок</a>
+                <span>8 800 000 99 44</span>
+                <a href="" class="zz-btn">Заказать звонок</a>
             </div>
         </div>
         <h2>За 3 дня создадим уютную атмосферу за счет<br>индивидуального оформления штор и<br>дополнений под ключ</h2>
@@ -30,49 +37,64 @@
    <div class="wrap">
        <h2>Мы всегда находим идеальное решение</h2>
        <ul class="liner">
-           <li><a href="">Для квартир</a></li>
-           <li><a href="">Для домов</a></li>
-           <li><a href="">Для организаций</a></li>
-           <li><a href="">Для мероприятий</a></li>
+           <li><a href="" data-slide="1">Для квартир</a></li>
+           <li><a href="" data-slide="2">Для домов</a></li>
+           <li><a href="" data-slide="3">Для организаций</a></li>
+           <li><a href="" data-slide="4">Для мероприятий</a></li>
+           <li class="before"></li>
+           <li class="after"></li>
        </ul>
        <p class="dov1">Правильная атмосфера</p>
        <p class="dov2">100% попадание</p>
        <p class="dov3">Закрывают от солнца</p>
+   </div>
+   <div class="first-slider-wrap" data-slide="">
+        <div class="first-slider-lint">
+           <div class="first-slider-slide"></div>
+           <div class="first-slider-slide"></div>
+           <div class="first-slider-slide"></div>
+           <div class="first-slider-slide"></div>
+        </div>        
        <a href="" class="strb_l"></a>
        <a href="" class="strb_r"></a>
-   </div>    
+   </div>
 </section>
 <section class="sec3">
     <div class="wrap">
         <h2>Ответьте на вопросы и получите<br> скидку 10% на дизайн проект</h2>
     </div>
     <div class="form_gr">
-       <!--div class="slid1">
+       <div class="slid1 calc-step active" data-step="1">
            <h3>Для чего необходимо подобрать шторы<br> и оформить интерьер?</h3>
            <a href="" class="var1">Квартира / Дом<span>1</span></a>
            <a href="" class="var2">Организации<span>2</span></a>
            <a href="" class="var3">Мероприятие<span>3</span></a>
-    </div>
-        <div class="slid2">
+        </div>
+        <div class="slid2 calc-step" data-step="2">
             <h3>Стилистика помещения уже проработана?</h3>
             <a href="" class="btn">проработана</a>
             <a href="" class="btn">требует разработки</a>
         </div>
-        <div class="slid3">
+        <div class="slid3 calc-step" data-step="3">
             <h3>Что скажете по срокам?</h3>
             <a href="" class="btn">Время есть</a>
             <a href="" class="btn">Сроки горят</a>
-        </div-->
-        <div class="slid4">
+        </div>
+        <div class="slid4 calc-step" data-step="4">
             <h3>Заполните форму и узнайте ориентировочную стоимость<br> разработки штор и оформления интерьера для Вас!</h3>
-            <form action="">
+            <form action="ajax/mail.php" method="POST">
                 <input type="text" name="name" placeholder="Введите имя">
                 <input type="text" name="phone" placeholder="Введите телефон">
+                <input type="hidden" name="frm" value="Форма-калькулятор">
+                <input type="hidden" name="event" value="calc">
+                <input type="hidden" name="step1">
+                <input type="hidden" name="step2">
+                <input type="hidden" name="step3">
                 <button type="submit" value="Получить сейчас">Получить сейчас</button>
             </form>
             <span>Все ваши данные полностью конфидицельны</span>
         </div>
-        <div class="form_line"></div>
+        <div class="form_line" data-step="1"></div>
    </div>
 </section>
 <section class="sec4">
@@ -84,7 +106,7 @@
             <p>Не совпадает<br> с дизайном<br><span>Дизайнер фрилансер<br> не работает в штате и<br>
                 не советуется с отделом<br> производства</span></p>
             <p>Низкое качество<br><span>Текстильный брак,<br> поехавший рисунок,<br> несоблюдение габаритов</span></p>
-            <p>Прогиб карниза<br><span>Из за несоблюдения<br> габаритов или ошибки при<br>           расчете карниз может<br> прогибаться или выпадать</span></p>
+            <p>Прогиб карниза<br><span>Из за несоблюдения<br> габаритов или ошибки при<br>расчете карниз может<br> прогибаться или выпадать</span></p>
         </div>
     </div>
 </section>
@@ -120,9 +142,11 @@
     </div>
     <div class="form_gr">
         <h3>Получите консультацию от дизайнера с<br> опытом 10 лет прямо сейчас</h3>
-        <form action="">
+        <form action="ajax/mail.php" method="POST">
             <input type="text" name="name" placeholder="Введите имя">
             <input type="text" name="phone" placeholder="Введите телефон">
+            <input type="hidden" name="frm" value="Получите консультацию">
+            <input type="hidden" name="event" value="consult">
             <button type="submit" value="Получить сейчас">Получить сейчас</button>
         </form>
         <span>Все ваши данные полностью конфидицельны</span>
@@ -132,34 +156,127 @@
     <div class="wrap">
         <h2>Фотографии нашего <br>производства и бутиков</h2>
         <div class="slid1_gr">
-            <div class="left">
-                <h4>Офис на первом этаже<br> в новом здании <br>по ул. Ленина</h4>
-                <p>Юных модниц и модников ждет<br> концерт рэпера L’One и группы<br> Mana Island, а также диджей-сэт<br> S-Brother-S. </p>
-                <div class="str_gr">
-                    <a href="" class="str_l"></a>
-                    <a href="" class="str_r"></a>
+            <div class="slid1_wrap">
+                <div class="slid1_slide">                    
+                    <div class="left">
+                        <h4>Офис1 на первом этаже<br> в новом здании <br>по ул. Ленина</h4>
+                        <p>Юных модниц и модников ждет<br> концерт рэпера L’One и группы<br> Mana Island, а также диджей-сэт<br> S-Brother-S. </p>
+                    </div>
+                    <div class="right">
+                        <ul class="bxslider1" id="small_bx_1">
+                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                        </ul>                        
+                        <div class="bx-pager1">
+                            <div class="pager-1-w">
+                                <div class="pager-1" id="smbx1p">
+                                    <a data-slide-index="0" href="" class="sl_hov">
+                                        <span class="hov_sl"></span>
+                                        <img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="108" height="72" class="lazy"/>
+                                    </a>
+                                    <a data-slide-index="1" href="" class="sl_hov">
+                                        <span class="hov_sl"></span>
+                                        <img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="108" height="72" class="lazy"/>
+                                    </a>
+                                    <a data-slide-index="2" href="" class="sl_hov">
+                                        <span class="hov_sl"></span>
+                                        <img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="108" height="72" class="lazy"/>
+                                    </a>
+                                    <a data-slide-index="3" href="" class="sl_hov">
+                                        <span class="hov_sl"></span>
+                                        <img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="108" height="72" class="lazy"/>
+                                    </a>                        
+                                </div>
+                            </div>
+                            <span class="strm_l" id="slbx1l"></span>
+                            <span class="strm_r" id="slbx1r"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="slid1_slide">                    
+                    <div class="left">
+                        <h4>Офис2 на первом этаже<br> в новом здании <br>по ул. Ленина</h4>
+                        <p>Юных модниц и модников ждет<br> концерт рэпера L’One и группы<br> Mana Island, а также диджей-сэт<br> S-Brother-S. </p>
+                    </div>
+                    <div class="right">
+                        <ul class="bxslider1" id="small_bx_2">
+                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                        </ul>                        
+                        <div class="bx-pager1">
+                            <div class="pager-1-w">
+                                <div class="pager-1" id="smbx2p">
+                                    <a data-slide-index="0" href="" class="sl_hov">
+                                        <span class="hov_sl"></span>
+                                        <img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="108" height="72" class="lazy"/>
+                                    </a>
+                                    <a data-slide-index="1" href="" class="sl_hov">
+                                        <span class="hov_sl"></span>
+                                        <img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="108" height="72" class="lazy"/>
+                                    </a>
+                                    <a data-slide-index="2" href="" class="sl_hov">
+                                        <span class="hov_sl"></span>
+                                        <img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="108" height="72" class="lazy"/>
+                                    </a>
+                                    <a data-slide-index="3" href="" class="sl_hov">
+                                        <span class="hov_sl"></span>
+                                        <img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="108" height="72" class="lazy"/>
+                                    </a>                        
+                                </div>
+                            </div>
+                            <span class="strm_l" id="slbx2l"></span>
+                            <span class="strm_r" id="slbx2r"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="slid1_slide">                    
+                    <div class="left">
+                        <h4>Офис2 на первом этаже<br> в новом здании <br>по ул. Ленина</h4>
+                        <p>Юных модниц и модников ждет<br> концерт рэпера L’One и группы<br> Mana Island, а также диджей-сэт<br> S-Brother-S. </p>
+                    </div>
+                    <div class="right">
+                        <ul class="bxslider1" id="small_bx_3">
+                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                        </ul>                        
+                        <div class="bx-pager1">
+                            <div class="pager-1-w">
+                                <div class="pager-1" id="smbx3p">
+                                    <a data-slide-index="0" href="" class="sl_hov">
+                                        <span class="hov_sl"></span>
+                                        <img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="108" height="72" class="lazy"/>
+                                    </a>
+                                    <a data-slide-index="1" href="" class="sl_hov">
+                                        <span class="hov_sl"></span>
+                                        <img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="108" height="72" class="lazy"/>
+                                    </a>
+                                    <a data-slide-index="2" href="" class="sl_hov">
+                                        <span class="hov_sl"></span>
+                                        <img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="108" height="72" class="lazy"/>
+                                    </a>
+                                    <a data-slide-index="3" href="" class="sl_hov">
+                                        <span class="hov_sl"></span>
+                                        <img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="108" height="72" class="lazy"/>
+                                    </a>                        
+                                </div>
+                            </div>
+                            <span class="strm_l" id="slbx3l"></span>
+                            <span class="strm_r" id="slbx3r"></span>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="right">
-                <ul class="bxslider1">
-                    <li><img src="img/slider/slid1_b.jpg" /></li>
-                </ul>
-                <div id="bx-pager1">
-                    <a data-slide-index="1" href="" class="sl_hov">
-                        <span class="hov_sl"></span>
-                    </a>
-                    <a data-slide-index="2" href="" class="sl_hov">
-                        <span class="hov_sl"></span>
-                    </a>
-                    <a data-slide-index="3" href="" class="sl_hov">
-                        <span class="hov_sl"></span>
-                    </a>
-                    <a data-slide-index="4" href="" class="sl_hov">
-                        <span class="hov_sl"></span>
-                    </a>
-                    <a href="" class="strm_l"></a>
-                    <a href="" class="strm_r"></a>
-                </div>
+            <div class="controls">
+                <div class="str_gr">
+                    <span class="str_l" id="bbxl"></span>
+                    <span class="str_r" id="bbxr"></span>
+                </div>                
             </div>
         </div>
     </div>
@@ -168,65 +285,97 @@
     <div class="wrap">
         <h2>Посмотрите истории наших<br> заказчиков</h2>
         <div class="bxslider2">
-            <img src="img/slider/slid1_b.jpg" />
-            <div>
-                <h4>Смерч<br>Василий Генадьевич</h4>
-                <p>Планировка квартиры площадью 95 кв.м. в<br> многоэтажном доме была незначительно<br> изменена по желанию заказчика: мы<br> расширили гостиную, объединив ее с<br> лоджией, чтобы создать обеденную зону<br> возле окна. На все работы по<br> перепланировке было получено разрешение<br> и ушло около месяца. В качестве<br> напольного покрытия для гостиной был<br> выбран бельгийский ламинат, а для<br> детской, рабочего кабинета и спальни –<br> дубовая паркетная доска.</p>
+            <div class="bx-slider-2-w" id="bx_otz">
+                <div class="bx-slider-2-slide">
+                    <img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="575" height="384" class="lazy"/>
+                    <div class="div">
+                        <h4>Смерч1<br>Василий Генадьевич</h4>
+                        <p>Планировка квартиры площадью 95 кв.м. в<br> многоэтажном доме была незначительно<br> изменена по желанию заказчика: мы<br> расширили гостиную, объединив ее с<br> лоджией, чтобы создать обеденную зону<br> возле окна. На все работы по<br> перепланировке было получено разрешение<br> и ушло около месяца. В качестве<br> напольного покрытия для гостиной был<br> выбран бельгийский ламинат, а для<br> детской, рабочего кабинета и спальни –<br> дубовая паркетная доска.</p>
+                    </div>
+                </div>
+                <div class="bx-slider-2-slide">
+                    <img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="575" height="384" class="lazy"/>
+                    <div class="div">
+                        <h4>Смерч2<br>Василий Генадьевич</h4>
+                        <p>Планировка квартиры площадью 95 кв.м. в<br> многоэтажном доме была незначительно<br> изменена по желанию заказчика: мы<br> расширили гостиную, объединив ее с<br> лоджией, чтобы создать обеденную зону<br> возле окна. На все работы по<br> перепланировке было получено разрешение<br> и ушло около месяца. В качестве<br> напольного покрытия для гостиной был<br> выбран бельгийский ламинат, а для<br> детской, рабочего кабинета и спальни –<br> дубовая паркетная доска.</p>
+                    </div>
+                </div>
+                <div class="bx-slider-2-slide">
+                    <img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="575" height="384" class="lazy"/>
+                    <div class="div">
+                        <h4>Смерч3<br>Василий Генадьевич</h4>
+                        <p>Планировка квартиры площадью 95 кв.м. в<br> многоэтажном доме была незначительно<br> изменена по желанию заказчика: мы<br> расширили гостиную, объединив ее с<br> лоджией, чтобы создать обеденную зону<br> возле окна. На все работы по<br> перепланировке было получено разрешение<br> и ушло около месяца. В качестве<br> напольного покрытия для гостиной был<br> выбран бельгийский ламинат, а для<br> детской, рабочего кабинета и спальни –<br> дубовая паркетная доска.</p>
+                    </div>
+                </div>
             </div>
-            <a href="" class="str_l"></a>
-            <a href="" class="str_r"></a>
+            <span class="str_l" id="bxol"></span>
+            <span class="str_r" id="bxor"></span>
         </div>
     </div>
 </section>
 <section class="sec8">
     <h2>Контактная<br> информация</h2>
-    <div class="point">
+    <!--div class="point">
         <h4>Наш офис находится по адресу</h4>
         <p>Москва, ул. Льва Толстого, 16<br> mail@mail.ru</p>
-    </div>    
+    </div-->    
     <div class="form_gr">
         <h4>Остались вопросы? <br> Пишите</h4>
-        <form action="">
+        <form action="ajax/mail.php" method="POST">
             <input type="text" name="name" placeholder="Введите имя">
             <input type="text" name="phone" placeholder="Введите телефон">
-            <textarea type="text"  name="mess" placeholder="Введите вопрос"></textarea>
+            <input type="hidden" name="frm" value="Остались вопросы">
+            <input type="hidden" name="event" value="question">
+            <textarea name="mess" placeholder="Введите вопрос"></textarea>
             <button type="submit" value="Отправить">Отправить</button>
             </form>
             <div>
-                <a href="">8 800 000 99 44</a>
-                <a href="" class="btn">заказать звонок</a>
+                <span>8 800 000 99 44</span>
+                <a href="" class="btn zz-btn">заказать звонок</a>
             </div>
         </div>
-    <div class="map"></div>
+    <div class="map" id="map"></div>
 </section>
 <footer>
     <div class="wrap">
-        <a href="" class="log_min">© 2016<br> Магия декора</a>
+        <span class="log_min">© 2016<br> Магия декора</span>
         <a href="" class="polit">Политика конфиденциальности</a>
         <p>Следите за нами<br> в соц. сетях:</p>
-        <a href="" class="ins"></a>
-        <a href="" class="vk"></a>
-        <a href="" class="gulf">Разработка сайта:</a>
+        <a href="https://www.instagram.com/" class="ins" target="_blank"></a>
+        <a href="https://vk.com/" class="vk" target="_blank" class="vk"></a>
+        <a href="http://gulfstream.bz/" target="_blank" class="gulf">Разработка сайта:</a>
     </div>
 </footer>
-
-<div id="maket"></div>
-
-<section>
-    <div class="popap">
+<div id="hidden-box">
+    <div class="popap" id="zz_pop">
        <a href="" class="close"></a>
         <div class="form_gr">
             <h3>Оставьте свои <br>контактные данные <br>и мы вам перезвоним</h3>
-            <form action="">
+            <form action="ajax/mail.php" method="POST">
                 <input type="text" name="name" placeholder="Введите имя">
                 <input type="text" name="phone" placeholder="Введите телефон">
+                <input type="hidden" name="frm" value="Заказать звонок">
+                <input type="hidden" name="event" value="callback">
                 <button type="submit" value="Заказать звонок">Заказать звонок</button>
             </form>
         </div>
     </div>
-</section>
-
-
-
+    <div class="popap conf" id="conf_pop">
+       <a href="" class="close"></a>
+        <div class="form_gr">
+        <h3>Политика конфиденциальности</h3>
+            <p>Наша компания уважительно относится к правам клиента. Соблюдается строгая конфиденциальность при оформлении заказа. Сведения надёжно сохраняются и защищены от передачи.</p>
+            <p>Согласием на обработку данных клиента исключительно с целью оказания услуг является размещение заказа на сайте.
+            К персональным данным относится личная информация о клиенте: домашний адрес; имя, фамилия, отчество; сведения о рождении; имущественное, семейное положение; личные контакты (телефон, электронная почта) и прочие сведения, которые перечислены в Законе РФ № 152-ФЗ «О персональных данных» от 27 июля 2006 г.</p>
+            <p>Клиент вправе отказаться от обработки персональных данных. Нами в данном случае гарантируется удаление с сайта всех персональных данных в трёхдневный срок в рабочее время. Подобный отказ клиент может оформить простым электронным письмом на адрес, указанный на странице нашего сайта.</p>
+        </div>
+    </div>
+    <div class="popap okgo" id="okgo">
+       <a href="" class="close"></a>
+        <div class="form_gr">
+            <h3>Спасибо за заявку, наш менеджер свяжется с Вами в ближайшее время</h3>
+        </div>
+    </div>
+</div>
 </body>
 </html>
