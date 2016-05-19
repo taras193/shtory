@@ -342,7 +342,7 @@
         <a href="" class="polit">Политика конфиденциальности</a>
         <p>Следите за нами<br> в соц. сетях:</p>
         <a href="https://www.instagram.com/" class="ins" target="_blank"></a>
-        <a href="https://vk.com/" class="vk" target="_blank" class="vk"></a>
+        <a href="https://vk.com/" class="vk" target="_blank"></a>
         <a href="http://gulfstream.bz/" target="_blank" class="gulf">Разработка сайта:</a>
     </div>
 </footer>
