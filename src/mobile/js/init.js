@@ -38,6 +38,7 @@ function initalize(){
 	// loadcss
 	//$('<link href="css/libs.css" rel="stylesheet" type="text/css"><link href="https://fonts.googleapis.com/css?family=Oranienbaum&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css"><link href="https://fonts.googleapis.com/css?family=Roboto:300,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css"><link href="css/style.css" rel="stylesheet" type="text/css">').appendTo('head'); 
 	//$('<link href="css/libs.css" rel="stylesheet" type="text/css"><link href="css/style.css" rel="stylesheet" type="text/css"><link href="css/scripts.css" rel="stylesheet" type="text/css">').appendTo('head'); 
+	$('<link href="css/full.min.css" rel="stylesheet" type="text/css">').appendTo('head'); 
 	console.log('css-append');
 
 	// hide-loader

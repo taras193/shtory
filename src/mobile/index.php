@@ -5,16 +5,21 @@
  <meta name="viewport" content="width=480">
  <title>МАГИЯ ДЕКОРА</title>
  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+ <script>if (screen.width > 750) {document.location = "../"+document.location.search;}</script>
+<style><? include('css/head.css'); ?></style>
 <script>!function(e,t,n){function r(){for(;u[0]&&"loaded"==u[0][l];)o=u.shift(),o[f]=!a.parentNode.insertBefore(o,a)}for(var i,s,o,u=[],a=e.scripts[0],f="onreadystatechange",l="readyState";i=n.shift();)s=e.createElement(t),"async"in a?(s.async=!1,e.head.appendChild(s)):a[l]?(u.push(s),s[f]=r):e.write("<"+t+' src="'+i+'" defer></'+t+">"),s.src=i}(document,"script",
     ["https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js",
     "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js",
-    "js/init.js"]);
+    "js/init.min.js",
+    "js/libs.min.js",
+    "js/main.min.js",
+    "https://maps.googleapis.com/maps/api/js?sensor=false",
+    "js/map.min.js"]);
 </script>
-<link href="css/libs.css" rel="stylesheet" type="text/css"><link href="css/style.css" rel="stylesheet" type="text/css"><link href="css/scripts.css" rel="stylesheet" type="text/css">
-<? include('track/head.php'); ?>
+<? include('../track/head.php'); ?>
 </head>
 <body>
-<header>
+<header id="m-sect1">
     <div class="wrap">
         <div class="head">
             <div class="fone">
@@ -30,30 +35,27 @@
         <p class="podt">14 лет на рынке. Собственное<br> производство.</p>
     </div>
 </header>
-<section class="sec2">
+<section class="sec2" id="m-sect2">
    <div class="wrap">
        <h2>Мы всегда находим идеальное решение</h2>
-       <ul class="slider_r">
-           <li><p>Для квартир</p></li>
-           <!--<li><p>Для домов</p></li>
-           <li><p>Для организаций</p></li>
-           <li><p>Для мероприятий</p></li>-->
-           <a href="" class="sli_l"></a>
-           <a href="" class="sli_r"></a>
-       </ul>
-       <div class="point_gr">
-           <a href="" class="active"></a>
-           <a href=""></a>
-           <a href=""></a>
-           <a href=""></a>
+       <div class="slider_r">
+           <p>Для квартир</p>
+           <span class="sli_l" id="sld1_l"></span>
+           <span class="sli_r" id="sld1_r"></span>
+       </div>
+       <div class="point_gr" id="sld1_p">
+           <a href="" data-slide-index="0" class="active"></a>
+           <a href="" data-slide-index="1"></a>
+           <a href="" data-slide-index="2"></a>
+           <a href="" data-slide-index="3"></a>
        </div>       
    </div>
    <div class="first-slider-wrap" data-slide="">
-        <div class="first-slider-lint">
-           <div class="first-slider-slide"></div>
-           <div class="first-slider-slide"></div>
-           <div class="first-slider-slide"></div>
-           <div class="first-slider-slide"></div>
+        <div class="first-slider-lint" id="sld1">
+           <div class="first-slider-slide" data-sld="0" data-alt="Для квартир"></div>
+           <div class="first-slider-slide" data-sld="1" data-alt="Для домов"></div>
+           <div class="first-slider-slide" data-sld="2" data-alt="Для организаций"></div>
+           <div class="first-slider-slide" data-sld="3" data-alt="Для мероприятий"></div>
         </div>
    </div>
 </section>
@@ -104,7 +106,7 @@
      </div>
    </div>
 </section>
-<section class="sec4">
+<section class="sec4" id="m-sect4">
     <div class="wrap">
         <h2>Проблемы, которых<br> Вы избежите,<br> работая с нами</h2>
         <div class="prob_gr">
@@ -117,7 +119,7 @@
         </div>
     </div>
 </section>
-<section class="sec5">
+<section class="sec5" id="m-sect5">
     <div class="wrap">
         <h2>О нашей компании<br>в цифрах</h2>
         <div class="cifri">
@@ -161,7 +163,7 @@
     </div>
     
 </section>
-<section class="sec6">
+<section class="sec6" id="m-sect6">
     <div class="wrap">
         <h2>Фотографии нашего <br>производства и бутиков</h2>
         <div class="slid1_gr">
@@ -174,14 +176,11 @@
                             <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="480" height="321" class="lazy"/></li>
                             <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="480" height="321" class="lazy"/></li>
                         </ul>                        
-                        <div class="bx-pager1">
-                            <a href="" class="active"></a>
-                            <a href=""></a>
-                            <a href=""></a>
-                            <a href=""></a>
-                            <a href=""></a>
-                            <a href=""></a>
-                            <a href=""></a>
+                        <div class="bx-pager1" id="slbxs1">
+                            <a href="" data-slide-index="0" class="active"></a>
+                            <a href="" data-slide-index="1"></a>
+                            <a href="" data-slide-index="2"></a>
+                            <a href="" data-slide-index="3"></a>
                         </div>
                     </div>
                     <div class="left">
@@ -189,23 +188,19 @@
                         <p>Юных модниц и модников ждет<br> концерт рэпера L’One и группы<br> Mana Island, а также диджей-сэт<br> S-Brother-S. </p>
                     </div>
                 </div>
-                <!--
                 <div class="slid1_slide">                    
                     <div class="right">
-                        <ul class="bxslider1" id="small_bx_1">
+                        <ul class="bxslider1" id="small_bx_2">
                             <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="480" height="321" class="lazy"/></li>
                             <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="480" height="321" class="lazy"/></li>
                             <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="480" height="321" class="lazy"/></li>
                             <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="480" height="321" class="lazy"/></li>
                         </ul>                        
-                        <div class="bx-pager1">
-                            <a href="" class="active"></a>
-                            <a href=""></a>
-                            <a href=""></a>
-                            <a href=""></a>
-                            <a href=""></a>
-                            <a href=""></a>
-                            <a href=""></a>
+                        <div class="bx-pager1" id="slbxs2">
+                            <a href="" data-slide-index="0" class="active"></a>
+                            <a href="" data-slide-index="1"></a>
+                            <a href="" data-slide-index="2"></a>
+                            <a href="" data-slide-index="3"></a>
                         </div>
                     </div>
                     <div class="left">
@@ -215,20 +210,17 @@
                 </div>
                 <div class="slid1_slide">                    
                     <div class="right">
-                        <ul class="bxslider1" id="small_bx_1">
+                        <ul class="bxslider1" id="small_bx_3">
                             <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="480" height="321" class="lazy"/></li>
                             <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="480" height="321" class="lazy"/></li>
                             <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="480" height="321" class="lazy"/></li>
                             <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="480" height="321" class="lazy"/></li>
                         </ul>                        
-                        <div class="bx-pager1">
-                            <a href="" class="active"></a>
-                            <a href=""></a>
-                            <a href=""></a>
-                            <a href=""></a>
-                            <a href=""></a>
-                            <a href=""></a>
-                            <a href=""></a>
+                        <div class="bx-pager1" id="slbxs3">
+                            <a href="" data-slide-index="0" class="active"></a>
+                            <a href="" data-slide-index="1"></a>
+                            <a href="" data-slide-index="2"></a>
+                            <a href="" data-slide-index="3"></a>
                         </div>
                     </div>
                     <div class="left">
@@ -236,33 +228,22 @@
                         <p>Юных модниц и модников ждет<br> концерт рэпера L’One и группы<br> Mana Island, а также диджей-сэт<br> S-Brother-S. </p>
                     </div>
                 </div>
-                -->
             </div>
         </div>
     </div>
 </section>
-<section class="sec7">
+<section class="sec7" id="m-sect7">
     <div class="wrap">
         <h2>Посмотрите истории наших<br> заказчиков</h2>
         <div class="bxslider2">
             <div class="bx-slider-2-w" id="bx_otz">
                 <div class="bx-slider-2-slide">
                     <img src="img/logo.png" data-original="img/slider/slid1_m.jpg" alt="" width="480" height="247" class="lazy"/>
-                    <div class="bx-pager2">
-                            <a href="" class="active"></a>
-                            <a href=""></a>
-                            <a href=""></a>
-                            <a href=""></a>
-                            <a href=""></a>
-                            <a href=""></a>
-                            <a href=""></a>
-                        </div>
                     <div class="div">
                         <h4>Смерч1<br>Василий Генадьевич</h4>
                         <p>Планировка квартиры площадью 95 кв.м. в<br> многоэтажном доме была незначительно<br> изменена по желанию заказчика: мы<br> расширили гостиную, объединив ее с<br> лоджией, чтобы создать обеденную зону<br> возле окна. На все работы по<br> перепланировке было получено разрешение<br> и ушло около месяца. В качестве<br> напольного покрытия для гостиной был<br> выбран бельгийский ламинат, а для<br> детской, рабочего кабинета и спальни –<br> дубовая паркетная доска.</p>
                     </div>
                 </div>
-                <!--
                 <div class="bx-slider-2-slide">
                     <img src="img/logo.png" data-original="img/slider/slid1_m.jpg" alt="" width="480" height="247" class="lazy"/>
                     <div class="div">
@@ -277,19 +258,31 @@
                         <p>Планировка квартиры площадью 95 кв.м. в<br> многоэтажном доме была незначительно<br> изменена по желанию заказчика: мы<br> расширили гостиную, объединив ее с<br> лоджией, чтобы создать обеденную зону<br> возле окна. На все работы по<br> перепланировке было получено разрешение<br> и ушло около месяца. В качестве<br> напольного покрытия для гостиной был<br> выбран бельгийский ламинат, а для<br> детской, рабочего кабинета и спальни –<br> дубовая паркетная доска.</p>
                     </div>
                 </div>
-                -->
+            </div>        
+            <div class="bx-pager2" id="otz_p">
+                <a href="" data-slide-index="0" class="active"></a>
+                <a href="" data-slide-index="1"></a>
+                <a href="" data-slide-index="2"></a>
             </div>
         </div>
     </div>
 </section>
-<section class="sec8">
+<section class="sec8" id="m-sect8">
     <h2>Контактная<br> информация</h2>
     <!--div class="point">
         <h4>Наш офис находится по адресу</h4>
         <p>Москва, ул. Льва Толстого, 16<br> mail@mail.ru</p>
     </div    
         -->
-        <div class="vop_okno">
+        <div class="vop_okno">        
+            <div class="menu">
+                <a href="#m-sect1">Главная</a>
+                <a href="#m-sect2">Наши решения</a>
+                <a href="#m-sect5">О нас в цифрах</a>
+                <a href="#m-sect5">Наше производство</a>
+                <a href="#m-sect6">Истории заказчиков</a>
+                <a href="#m-sect8">Контакты</a>
+            </div>
             <div class="fon_vop">
                 <a href="" class="btn_foot"></a>
                 <a href="" class="btn_vop">Задать вопрос</a>
@@ -310,12 +303,12 @@
 </section>
 <footer>
     <div class="wrap">
-        <span class="log_min">© 2016 Юридическое агентство<br>Профессионал</span>
-        <!--<a href="" class="polit">Политика конфиденциальности</a>
-        <p>Следите за нами<br> в соц. сетях:</p>
+        <span class="log_min">© 2016<br>Магия декора</span>
+        <!--p>Следите за нами<br> в соц. сетях:</p>
         <a href="https://www.instagram.com/" class="ins" target="_blank"></a>
         <a href="https://vk.com/" class="vk" target="_blank"></a>-->
         <a href="http://gulfstream.bz/" target="_blank" class="gulf"></a>
+        <a href="" class="polit">Политика конфиденциальности</a>
     </div>
 </footer>
 <div id="hidden-box">
@@ -349,6 +342,6 @@
         </div>
     </div>
 </div>
-<div id="maket"></div>
+<? include('../track/body.php'); ?>
 </body>
 </html>
