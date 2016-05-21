@@ -16,6 +16,18 @@ module.exports = function(grunt) {
 		  fullcss: {
 		    src: ['src/css/libs.css','src/css/style.css','src/css/scripts.css'],
 		    dest: 'src/css/full.css'
+		  },		  
+           m_js: {
+		    src: 'src/mobile/js/libs/*.js',
+		    dest: 'src/mobile/js/libs.js'
+		  },
+		  m_css: {
+		    src: 'src/mobile/css/libs/*.css',
+		    dest: 'src/mobile/css/libs.css'
+		  },
+		  m_fullcss: {
+		    src: ['src/mobile/css/libs.css','src/css/style.css','src/css/scripts.css'],
+		    dest: 'src/mobile/css/full.css'
 		  }
         },
         cssmin: {
@@ -61,6 +73,26 @@ module.exports = function(grunt) {
 		    {
 		      src: 'src/css/full.css',
 		      dest: 'src/css/full.min.css'
+		    },
+		    {
+		      src: 'src/mobile/css/style.css',
+		      dest: 'src/mobile/css/style.css'
+		    },
+		    {
+		      src: 'src/mobile/css/libs.css',
+		      dest: 'src/mobile/css/libs.min.css'
+		    },
+		    {
+		      src: 'src/mobile/css/scripts.css',
+		      dest: 'src/mobile/css/scripts.css'
+		    },
+		    {
+		      src: 'src/mobile/css/head.css',
+		      dest: 'src/mobile/css/head.css'
+		    },
+		    {
+		      src: 'src/mobile/css/full.css',
+		      dest: 'src/mobile/css/full.min.css'
 		    }]
 		  }
 		},
@@ -84,15 +116,41 @@ module.exports = function(grunt) {
 		    map: {
 		       	src: 'src/js/map.js',
 		       	dest: 'src/js/map.min.js'
+		    },
+		    m_jquery: {
+		       	src: 'src/mobile/js/jquery/jquery.js',
+		       	dest: 'src/mobile/js/jquery.min.js'
+		    },
+		    m_init: {
+		       	src: 'src/mobile/js/init.js',
+		       	dest: 'src/mobile/js/init.min.js'
+		    },
+		    m_libs: {
+		        src: 'src/mobile/js/libs.js',
+		        dest: 'src/mobile/js/libs.min.js'
+		    },
+		    m_main: {
+		       	src: 'src/mobile/js/main.js',
+		       	dest: 'src/mobile/js/main.min.js'
+		    },
+		    m_map: {
+		       	src: 'src/mobile/js/map.js',
+		       	dest: 'src/mobile/js/map.min.js'
 		    }
 		},
 		imagemin: {
 		    dynamic: {
 		        files: [{
 		            expand: true,
-		            cwd: 'img/',
+		            cwd: 'src/img/',
 		            src: ['**/*.{png,jpg,gif}'],
-		            dest: 'img/'
+		            dest: 'src/img/'
+		        },
+		        {
+		            expand: true,
+		            cwd: 'src/img/mobile/',
+		            src: ['**/*.{png,jpg,gif}'],
+		            dest: 'src/img/mobile/'
 		        }]
 		    }
 		},
@@ -188,20 +246,35 @@ module.exports = function(grunt) {
 	                },
 	                {
 	                    'src/css/scripts.css': 'src/css/scripts.css'
+	                },
+	                {
+	                    'src/mobile/css/full.css': 'src/mobile/css/full.css'
+	                },
+	                {
+	                    'src/mobile/css/style.css': 'src/mobile/css/style.css'
+	                },
+	                {
+	                    'src/mobile/css/head.css': 'src/mobile/css/head.css'
+	                },
+	                {
+	                    'src/mobile/css/libs.css': 'src/mobile/css/libs.css'
+	                },
+	                {
+	                    'src/mobile/css/scripts.css': 'src/mobile/css/scripts.css'
 	                }
                 ]
             }
         },
         watch: {
 		    scripts: {
-		        files: ['src/js/libs/*.js','src/js/init.js','src/js/main.js','src/js/libs/*.js','src/js/jquery/*.js'],
+		        files: ['src/js/libs/*.js','src/js/init.js','src/js/main.js','src/js/libs/*.js','src/js/jquery/*.js','src/mobile/js/libs/*.js','src/mobile/js/init.js','src/mobile/js/main.js','src/mobile/js/libs/*.js','src/mobile/js/jquery/*.js'],
 		        tasks: ['concat', 'uglify'],
 		        options: {
 		            spawn: false,
 		        },
 		    },
 		    css: {
-			    files: ['src/css/libs/*.css','src/css/style.css','src/css/scripts.css'],
+			    files: ['src/css/libs/*.css','src/css/style.css','src/css/scripts.css','src/mobile/css/libs/*.css','src/mobile/css/style.css','src/mobile/css/scripts.css'],
 			    tasks: ['concat','cssmin'],
 			    options: {
 			        spawn: false,
