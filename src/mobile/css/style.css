@@ -58,7 +58,8 @@ h2:after{content:"";background:#fc6f5a;width:45px;height:2px;position:absolute;l
 }
 .slider_r p{font-size: 22px;font-family:Roboto;font-weight:300;color: black;display: inline-block;vertical-align: top;}
 .sli_l{
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
   border: 3px solid rgb( 255, 51, 0 );
   width: 51px;
   height: 51px;
@@ -68,7 +69,8 @@ h2:after{content:"";background:#fc6f5a;width:45px;height:2px;position:absolute;l
   top: 1px;
 }
 .sli_r{
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
   border: 3px solid rgb( 255, 51, 0 );
   width: 51px;
   height: 51px;
@@ -84,7 +86,8 @@ h2:after{content:"";background:#fc6f5a;width:45px;height:2px;position:absolute;l
     letter-spacing: 3px;
 }
 .point_gr a {
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
   background-color: rgb( 165, 165, 165 );
   width: 12px;
   height: 12px;
@@ -94,7 +97,8 @@ h2:after{content:"";background:#fc6f5a;width:45px;height:2px;position:absolute;l
   letter-spacing: 0;
 }
 .point_gr a:hover, .point_gr a:active, .point_gr a.active {
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
   background-color: rgb( 255, 51, 0 );
   width: 16px;
   height: 16px;
@@ -208,7 +212,8 @@ form button:active,form button:hover{color:#fee1dc;background-color:#e6523c;-web
 .bxslider1 img{width: 480px;height: 321px;/* float:right; */}
 .bx-pager1{width: 200px;/* margin-top:14px; */font-size:0;word-spacing:0;position: absolute;top: 282px;left: 50%;margin-left: -100px;letter-spacing: 8px;height: 14px;}
 .bx-pager1 a{
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
   background-color: rgb( 244, 244, 244 );
   width: 14px;
   height: 14px;
@@ -216,14 +221,16 @@ form button:active,form button:hover{color:#fee1dc;background-color:#e6523c;-web
   letter-spacing: 0;
 }
 .bx-pager1 a:hover, .bx-pager1 a:active, .bx-pager1 a.active {
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
   background-color: rgb( 255, 51, 0 );
   width: 14px;
   height: 14px;
 }
 .bx-pager2{width: 200px;/* margin-top:14px; */font-size:0;word-spacing:0;position: absolute;top: 210px;left: 50%;margin-left: -100px;letter-spacing: 8px;height: 14px;}
 .bx-pager2 a{
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
   background-color: rgb( 244, 244, 244 );
   width: 14px;
   height: 14px;
@@ -231,7 +238,8 @@ form button:active,form button:hover{color:#fee1dc;background-color:#e6523c;-web
   letter-spacing: 0;
 }
 .bx-pager2 a:hover, .bx-pager2 a:active, .bx-pager2 a.active {
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
   background-color: rgb( 255, 51, 0 );
   width: 14px;
   height: 14px;
@@ -390,7 +398,8 @@ footer p{font-size:14px;font-family:Roboto;font-weight:300;color:#fff;line-heigh
     background: url(../img/fon_vop.png)no-repeat center;
     width: 100%;
     height: 95px;
-    background-size: cover;
+    -webkit-background-size: cover;
+            background-size: cover;
     padding-top: 35px;
     
 }
