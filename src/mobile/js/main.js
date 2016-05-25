@@ -56,9 +56,14 @@ $(document).ready(function() {
       e.preventDefault();
       var cur_step = $(this).closest('.calc-step').data('step');
       $('input[name="step'+cur_step+'"]').val($(this).text());
-      $(this).closest('.calc-step').removeClass('active').addClass('disactive').next().addClass('active');
+      $(this).closest('.calc-step').removeClass('active').addClass('disactive').next().addClass('active').removeClass('disactive');
       $('.form_line').attr('data-step',parseInt(cur_step)+1);
       console.log('calc.prev-step='+parseInt(cur_step)+1);
+  });
+  $('.back_k').click(function(){
+      var cur_step = $(this).closest('.calc-step').data('step');
+      $(this).closest('.calc-step').removeClass('active').addClass('disactive').prev().addClass('active').removeClass('disactive');
+      $('.form_line').attr('data-step',parseInt(cur_step)-1);
   });
 
   //double-slider

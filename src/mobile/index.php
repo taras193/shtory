@@ -67,7 +67,7 @@
        <h2>Ответьте на<br>  вопросы и получите<br> скидку 10% на<br>  дизайн проект</h2>
     </div>
 </section>
-<section class="sec3">
+<section class="sec3" id="m-sect3">
     <div class="wrap">
     <div class="form_gr">
        <div class="slid1 calc-step active" data-step="1">
@@ -81,6 +81,7 @@
             <h3>Стилистика помещения уже проработана?</h3>
             <a href="" class="btn">проработана</a>
             <a href="" class="btn">требует разработки</a>
+            <span class="back_k">Назад</span>
         </div>
         
         
@@ -88,6 +89,7 @@
             <h3>Что скажете<br> по срокам?</h3>
             <a href="" class="btn">Время есть</a>
             <a href="" class="btn">Сроки горят</a>
+            <span class="back_k">Назад</span>
         </div>
         <div class="slid4 calc-step" data-step="4">
             <h3>Заполните форму и узнайте<br> ориентировочную стоимость<br> разработки штор и<br> оформления интерьера для<br> Вас!</h3>
@@ -102,6 +104,7 @@
                 <button type="submit" value="Получить сейчас">Получить сейчас</button>
             </form>
             <span>Все ваши данные полностью конфидицельны</span>
+            <span class="back_k">Назад</span>
         </div>
      </div>
    </div>
@@ -168,7 +171,10 @@
         <h2>Фотографии нашего <br>производства и бутиков</h2>
         <div class="slid1_gr">
             <div class="slid1_wrap">
-                <div class="slid1_slide">                    
+                <div class="slid1_slide">
+                    <div class="left">
+                        <h4>Офис1 на первом этаже<br> в новом здании <br>по ул. Ленина</h4>
+                    </div>            
                     <div class="right">
                         <ul class="bxslider1" id="small_bx_1">
                             <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="480" height="321" class="lazy"/></li>
@@ -184,11 +190,13 @@
                         </div>
                     </div>
                     <div class="left">
-                        <h4>Офис1 на первом этаже<br> в новом здании <br>по ул. Ленина</h4>
                         <p>Юных модниц и модников ждет<br> концерт рэпера L’One и группы<br> Mana Island, а также диджей-сэт<br> S-Brother-S. </p>
                     </div>
                 </div>
-                <div class="slid1_slide">                    
+                <div class="slid1_slide">
+                    <div class="left">
+                        <h4>Офис1 на первом этаже<br> в новом здании <br>по ул. Ленина</h4>
+                    </div>                      
                     <div class="right">
                         <ul class="bxslider1" id="small_bx_2">
                             <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="480" height="321" class="lazy"/></li>
@@ -204,11 +212,13 @@
                         </div>
                     </div>
                     <div class="left">
-                        <h4>Офис2 на первом этаже<br> в новом здании <br>по ул. Ленина</h4>
                         <p>Юных модниц и модников ждет<br> концерт рэпера L’One и группы<br> Mana Island, а также диджей-сэт<br> S-Brother-S. </p>
                     </div>
                 </div>
-                <div class="slid1_slide">                    
+                <div class="slid1_slide">
+                    <div class="left">
+                        <h4>Офис1 на первом этаже<br> в новом здании <br>по ул. Ленина</h4>
+                    </div>
                     <div class="right">
                         <ul class="bxslider1" id="small_bx_3">
                             <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="480" height="321" class="lazy"/></li>
@@ -224,7 +234,6 @@
                         </div>
                     </div>
                     <div class="left">
-                        <h4>Офис3 на первом этаже<br> в новом здании <br>по ул. Ленина</h4>
                         <p>Юных модниц и модников ждет<br> концерт рэпера L’One и группы<br> Mana Island, а также диджей-сэт<br> S-Brother-S. </p>
                     </div>
                 </div>
@@ -234,14 +243,14 @@
 </section>
 <section class="sec7" id="m-sect7">
     <div class="wrap">
-        <h2>Посмотрите истории наших<br> заказчиков</h2>
+        <h2>Посмотрите истории<br> наших заказчиков</h2>
         <div class="bxslider2">
             <div class="bx-slider-2-w" id="bx_otz">
                 <div class="bx-slider-2-slide">
                     <img src="img/logo.png" data-original="img/slider/slid1_m.jpg" alt="" width="480" height="247" class="lazy"/>
                     <div class="div">
                         <h4>Смерч1<br>Василий Генадьевич</h4>
-                        <p>Планировка квартиры площадью 95 кв.м. в<br> многоэтажном доме была незначительно<br> изменена по желанию заказчика: мы<br> расширили гостиную, объединив ее с<br> лоджией, чтобы создать обеденную зону<br> возле окна. На все работы по<br> перепланировке было получено разрешение<br> и ушло около месяца. В качестве<br> напольного покрытия для гостиной был<br> выбран бельгийский ламинат, а для<br> детской, рабочего кабинета и спальни –<br> дубовая паркетная доска.</p>
+                        <p>Планировка квартиры площадью 95 кв.м. в  многоэтажном доме была незначительно  изменена по желанию заказчика: мы  расширили гостиную, объединив ее с  лоджией, чтобы создать обеденную зону  возле окна. На все работы по  перепланировке было получено разрешение  и ушло около месяца. В качестве  напольного покрытия для гостиной был  выбран бельгийский ламинат, а для  детской, рабочего кабинета и спальни –  дубовая паркетная доска.</p>
                     </div>
                 </div>
                 <div class="bx-slider-2-slide">
@@ -277,10 +286,11 @@
         <div class="vop_okno">        
             <div class="menu">
                 <a href="#m-sect1">Главная</a>
-                <a href="#m-sect2">Наши решения</a>
-                <a href="#m-sect5">О нас в цифрах</a>
-                <a href="#m-sect5">Наше производство</a>
-                <a href="#m-sect6">Истории заказчиков</a>
+                <a href="#m-sect3">Стоимость</a>
+                <a href="#m-sect4">Без проблем </a>
+                <a href="#m-sect5">О компании </a>
+                <a href="#m-sect6">Фото бутиков</a>
+                <a href="#m-sect7">Отзывы</a>
                 <a href="#m-sect8">Контакты</a>
             </div>
             <div class="fon_vop">

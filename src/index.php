@@ -20,7 +20,7 @@
 </head>
 <body>
 <div id="loader-wrap"><div class="loader"><div class="square square--main"><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div></div></div></div>
-<header>
+<header id="m-sect1">
     <div class="wrap">
         <div class="head">
             <span class="logo">магия декора</span>
@@ -34,7 +34,7 @@
         <p class="podt">14 лет на рынке.<br>Собственное производство.</p>
     </div>
 </header>
-<section class="sec2">
+<section class="sec2" id="m-sect2">
    <div class="wrap">
        <h2>Мы всегда находим идеальное решение</h2>
        <ul class="liner">
@@ -60,10 +60,9 @@
        <a href="" class="strb_r"></a>
    </div>
 </section>
-<section class="sec3">
+<section class="sec3" id="m-sect3">
     <div class="wrap">
         <h2>Ответьте на вопросы и получите<br> скидку 10% на дизайн проект</h2>
-    </div>
     <div class="form_gr">
        <div class="slid1 calc-step active" data-step="1">
            <h3>Для чего необходимо подобрать шторы<br> и оформить интерьер?</h3>
@@ -75,11 +74,13 @@
             <h3>Стилистика помещения уже проработана?</h3>
             <a href="" class="btn">проработана</a>
             <a href="" class="btn">требует разработки</a>
+            <span class="back_k">Назад</span>
         </div>
         <div class="slid3 calc-step" data-step="3">
             <h3>Что скажете по срокам?</h3>
             <a href="" class="btn">Время есть</a>
             <a href="" class="btn">Сроки горят</a>
+            <span class="back_k">Назад</span>
         </div>
         <div class="slid4 calc-step" data-step="4">
             <h3>Заполните форму и узнайте ориентировочную стоимость<br> разработки штор и оформления интерьера для Вас!</h3>
@@ -93,12 +94,14 @@
                 <input type="hidden" name="step3">
                 <button type="submit" value="Получить сейчас">Получить сейчас</button>
             </form>
+            <span class="back_k">Назад</span>
             <span>Все ваши данные полностью конфидицельны</span>
         </div>
         <div class="form_line" data-step="1"></div>
    </div>
+   </div>
 </section>
-<section class="sec4">
+<section class="sec4" id="m-sect4">
     <div class="wrap">
         <h2>Проблемы, которых Вы избежите,<br> работая с нами</h2>
         <div class="prob_gr">
@@ -111,7 +114,7 @@
         </div>
     </div>
 </section>
-<section class="sec5">
+<section class="sec5" id="m-sect5">
     <div class="wrap">
         <h2>О нашей компании<br>в цифрах</h2>
         <div class="cifri">
@@ -153,7 +156,7 @@
         <span>Все ваши данные полностью конфидицельны</span>
     </div>
 </section>
-<section class="sec6">
+<section class="sec6" id="m-sect6">
     <div class="wrap">
         <h2>Фотографии нашего <br>производства и бутиков</h2>
         <div class="slid1_gr">
@@ -282,7 +285,7 @@
         </div>
     </div>
 </section>
-<section class="sec7">
+<section class="sec7" id="m-sect7">
     <div class="wrap">
         <h2>Посмотрите истории наших<br> заказчиков</h2>
         <div class="bxslider2">
@@ -314,7 +317,7 @@
         </div>
     </div>
 </section>
-<section class="sec8">
+<section class="sec8" id="m-sect8">
     <h2>Контактная<br> информация</h2>
     <!--div class="point">
         <h4>Наш офис находится по адресу</h4>
@@ -342,11 +345,21 @@
         <span class="log_min">© 2016<br> Магия декора</span>
         <a href="" class="polit">Политика конфиденциальности</a>
         <p>Следите за нами<br> в соц. сетях:</p>
-        <a href="https://www.instagram.com/" class="ins" target="_blank"></a>
-        <a href="https://vk.com/" class="vk" target="_blank"></a>
+        <a href="https://www.instagram.com/salon__shtor/" class="ins" target="_blank"></a>
+        <a href="http://vk.com/club64331670" class="vk" target="_blank"></a>
         <a href="http://gulfstream.bz/" target="_blank" class="gulf">Разработка сайта:</a>
     </div>
 </footer>
+<div class="menu-btn"></div>
+    <div class="menu">
+        <a href="#m-sect1" class="menu-a">Главная</a>
+        <a href="#m-sect3" class="menu-a">Стоимость</a>
+        <a href="#m-sect4" class="menu-a">Без проблем</a>
+        <a href="#m-sect5" class="menu-a">О компании</a>
+        <a href="#m-sect6" class="menu-a">Фото бутиков</a>
+        <a href="#m-sect7" class="menu-a">Отзывы</a>
+        <a href="#m-sect8" class="menu-a">Контакты</a>
+    </div>
 <div id="hidden-box">
     <div class="popap" id="zz_pop">
        <a href="" class="close"></a>
