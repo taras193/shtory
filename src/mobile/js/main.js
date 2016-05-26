@@ -71,7 +71,7 @@ $(document).ready(function() {
         infiniteLoop: true,
         nextSelector:'#slbx1r',
         prevSelector:'#slbx1l',
-        slideWidth:575,
+        slideWidth:480,
         controls: true,
         pager:true,
         pagerCustom: '#slbxs1',
@@ -93,7 +93,7 @@ $(document).ready(function() {
         infiniteLoop: true,
         nextSelector:'#slbx2r',
         prevSelector:'#slbx2l',
-        slideWidth:575,
+        slideWidth:480,
         controls: true,
         pager:true,
         pagerCustom: '#slbxs2',
@@ -111,11 +111,11 @@ $(document).ready(function() {
       }
     });
 
-  var small_bx_2 = $('#small_bx_3').bxSlider({
+  var small_bx_3 = $('#small_bx_3').bxSlider({
         infiniteLoop: true,
         nextSelector:'#slbx3r',
         prevSelector:'#slbx3l',
-        slideWidth:575,
+        slideWidth:480,
         controls: true,
         pager:true,
         pagerCustom: '#slbxs3',
@@ -135,9 +135,9 @@ $(document).ready(function() {
 
   var big_bx = $('.slid1_wrap').bxSlider({
         infiniteLoop: true,
-        nextSelector:'#bbxr',
-        prevSelector:'#bbxl',
-        slideWidth:980,
+        nextSelector:'#sldb_r',
+        prevSelector:'#sldb_l',
+        slideWidth:480,
         controls: true,
         pager:false,
         auto: false,
@@ -166,6 +166,7 @@ $(document).ready(function() {
           });
         });
 
+
         console.log('big_bx.loaded');
 
       }
@@ -176,7 +177,7 @@ $(document).ready(function() {
         infiniteLoop: true,
         nextSelector:'#bxor',
         prevSelector:'#bxol',
-        slideWidth:980,
+        slideWidth:480,
         controls: true,
         pager:true,
         pagerCustom: '#otz_p',        

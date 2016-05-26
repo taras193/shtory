@@ -54,8 +54,8 @@
         <div class="first-slider-lint" id="sld1">
            <div class="first-slider-slide" data-sld="0" data-alt="Для квартир"></div>
            <div class="first-slider-slide" data-sld="1" data-alt="Для домов"></div>
-           <div class="first-slider-slide" data-sld="2" data-alt="Для организаций"></div>
-           <div class="first-slider-slide" data-sld="3" data-alt="Для мероприятий"></div>
+           <div class="first-slider-slide" data-sld="2" data-alt="Для мероприятий"></div>
+           <div class="first-slider-slide" data-sld="3" data-alt="Для организаций"></div>
         </div>
    </div>
 </section>
@@ -238,6 +238,8 @@
                     </div>
                 </div>
             </div>
+                <span class="sli_l" id="sldb_l"></span>
+                <span class="sli_r" id="sldb_r"></span>
         </div>
     </div>
 </section>
