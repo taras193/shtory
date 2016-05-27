@@ -12,7 +12,7 @@
     "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js",
     "js/init.min.js",
     "js/libs.min.js",
-    "js/main.min.js",
+    "js/main.js",
     "https://maps.googleapis.com/maps/api/js?sensor=false",
     "js/map.min.js"]);
 </script>
@@ -190,7 +190,7 @@
                         </div>
                     </div>
                     <div class="left">
-                        <p>Юных модниц и модников ждет<br> концерт рэпера L’One и группы<br> Mana Island, а также диджей-сэт<br> S-Brother-S. </p>
+                        <p>1Юных модниц и модников ждет<br> концерт рэпера L’One и группы<br> Mana Island, а также диджей-сэт<br> S-Brother-S. </p>
                     </div>
                 </div>
                 <div class="slid1_slide">
@@ -212,7 +212,7 @@
                         </div>
                     </div>
                     <div class="left">
-                        <p>Юных модниц и модников ждет<br> концерт рэпера L’One и группы<br> Mana Island, а также диджей-сэт<br> S-Brother-S. </p>
+                        <p>2Юных модниц и модников ждет<br> концерт рэпера L’One и группы<br> Mana Island, а также диджей-сэт<br> S-Brother-S. </p>
                     </div>
                 </div>
                 <div class="slid1_slide">
@@ -234,7 +234,7 @@
                         </div>
                     </div>
                     <div class="left">
-                        <p>Юных модниц и модников ждет<br> концерт рэпера L’One и группы<br> Mana Island, а также диджей-сэт<br> S-Brother-S. </p>
+                        <p>3Юных модниц и модников ждет<br> концерт рэпера L’One и группы<br> Mana Island, а также диджей-сэт<br> S-Brother-S. </p>
                     </div>
                 </div>
             </div>

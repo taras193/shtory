@@ -69,10 +69,10 @@ $(document).ready(function() {
   //double-slider
   var small_bx_1 = $('#small_bx_1').bxSlider({
         infiniteLoop: true,
-        nextSelector:'#slbx1r',
-        prevSelector:'#slbx1l',
+        //nextSelector:'#slbx1r',
+        //prevSelector:'#slbx1l',
         slideWidth:480,
-        controls: true,
+        controls: false,
         pager:true,
         pagerCustom: '#slbxs1',
         auto: false,
@@ -91,10 +91,10 @@ $(document).ready(function() {
 
   var small_bx_2 = $('#small_bx_2').bxSlider({
         infiniteLoop: true,
-        nextSelector:'#slbx2r',
-        prevSelector:'#slbx2l',
+        //nextSelector:'#slbx2r',
+        //prevSelector:'#slbx2l',
         slideWidth:480,
-        controls: true,
+        controls: false,
         pager:true,
         pagerCustom: '#slbxs2',
         auto: false,
@@ -113,10 +113,10 @@ $(document).ready(function() {
 
   var small_bx_3 = $('#small_bx_3').bxSlider({
         infiniteLoop: true,
-        nextSelector:'#slbx3r',
-        prevSelector:'#slbx3l',
+        //nextSelector:'#slbx3r',
+        //prevSelector:'#slbx3l',
         slideWidth:480,
-        controls: true,
+        controls: false,
         pager:true,
         pagerCustom: '#slbxs3',
         auto: false,

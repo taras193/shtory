@@ -173,16 +173,16 @@ form button:active,form button:hover{color:#fee1dc;background-color:#e6523c;-web
 .str_gr span a{color:transparent;opacity:0;display:block;width:100%;height:100%}
 .str_gr span:nth-of-type(1){float:left;background-image:url(../img/str_l.png);background-position:center;background-repeat:no-repeat}
 .str_gr span:nth-of-type(2){float:right;background-image:url(../img/str_r.png);background-position:center;background-repeat:no-repeat}
-.slid1_gr .right{width:100%;position:relative}
+.slid1_gr .right{width:100%;overflow: hidden;position:relative;}
 .slid1_gr .controls{clear:both;position:relative;z-index:4}
 .bxslider1{width:100%;height:321px;overflow:hidden}
 .bxslider1 img{width:480px;height:321px}
 .bx-pager1{width:200px;font-size:0;word-spacing:0;position:absolute;top:282px;left:50%;margin-left:-100px;height:14px;z-index: 5;}
 .bx-pager1 a{-webkit-border-radius:50%;border-radius:50%;background-color:#f4f4f4;width:14px;height:14px;display:inline-block;letter-spacing:0;margin:0 4px}
-.bx-pager1 a.active,.bx-pager1 a:active,.bx-pager1 a:hover{-webkit-border-radius:50%;border-radius:50%;background-color:#f30;width:14px;height:14px}
+.bx-pager1 a.active, .bx-pager1 a:active{-webkit-border-radius:50%;border-radius:50%;background-color:#f30;width:14px;height:14px}
 .bx-pager2{width:200px;font-size:0;word-spacing:0;position:absolute;top:210px;left:50%;margin-left:-100px;height:14px}
 .bx-pager2 a{-webkit-border-radius:50%;border-radius:50%;background-color:#f4f4f4;width:14px;height:14px;display:inline-block;letter-spacing:0;margin:0 4px}
-.bx-pager2 a.active,.bx-pager2 a:active,.bx-pager2 a:hover{-webkit-border-radius:50%;border-radius:50%;background-color:#f30;width:14px;height:14px}
+.bx-pager2 a.active,.bx-pager2 a:active{-webkit-border-radius:50%;border-radius:50%;background-color:#f30;width:14px;height:14px}
 .pager-1{height:72px}
 .pager-1-w{margin:0 auto;width:492px;overflow:hidden;height:72px}
 .strm_l{background:url(../img/strm_l.png) no-repeat center;width:16px;height:32px;position:absolute;left:18px;top:50%;margin-top:-16px}
