@@ -6,7 +6,7 @@
  <title>МАГИЯ ДЕКОРА</title>
  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
  <script>if (screen.width <= 750) {document.location = "mobile/"+document.location.search;}</script>
-<style><? include('css/head.css'); ?></style>
+<style><?php include('css/head.css'); ?></style>
 <script>!function(e,t,n){function r(){for(;u[0]&&"loaded"==u[0][l];)o=u.shift(),o[f]=!a.parentNode.insertBefore(o,a)}for(var i,s,o,u=[],a=e.scripts[0],f="onreadystatechange",l="readyState";i=n.shift();)s=e.createElement(t),"async"in a?(s.async=!1,e.head.appendChild(s)):a[l]?(u.push(s),s[f]=r):e.write("<"+t+' src="'+i+'" defer></'+t+">"),s.src=i}(document,"script",
     ["https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js",
     "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js",
@@ -16,7 +16,7 @@
     "https://maps.googleapis.com/maps/api/js?sensor=false",
     "js/map.js"]);
 </script>
-<? include('track/head.php'); ?>
+<?php include('track/head.php'); ?>
 </head>
 <body>
 <div id="loader-wrap"><div class="loader"><div class="square square--main"><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div></div></div></div>
@@ -391,6 +391,6 @@
         </div>
     </div>
 </div>
-<? include('track/body.php'); ?>
+<?php include('track/body.php'); ?>
 </body>
 </html>
