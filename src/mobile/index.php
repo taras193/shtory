@@ -181,7 +181,7 @@
                         <ul class="bxslider1" id="small_bx_1">
                             <li><img src="img/logo.png" data-original="img/slider/slid_a1_1.jpg" alt="" width="480" height="321" class="lazy"/></li>
                             <li><img src="img/logo.png" data-original="img/slider/slid_a1_2.jpg" alt="" width="480" height="321" class="lazy"/></li>
-                            <li><img src="img/logo.png" data-original="img/slider/slid_a1_3.jpg" alt="" width="480" height="321" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid_a1_3.jpg" alt="" width="181" height="321" class="lazy"/></li>
                             <li><img src="img/logo.png" data-original="img/slider/slid_a1_4.jpg" alt="" width="480" height="321" class="lazy"/></li>
                             <li><img src="img/logo.png" data-original="img/slider/slid_a1_5.jpg" alt="" width="480" height="321" class="lazy"/></li>
                             <li><img src="img/logo.png" data-original="img/slider/slid_a1_6.jpg" alt="" width="480" height="321" class="lazy"/></li>
@@ -211,12 +211,35 @@
                     <div class="right">
                         <ul class="bxslider1" id="small_bx_2">
                            <li><img src="img/logo.png" data-original="img/slider/slid_a2_1.jpg" alt="" width="480" height="321" class="lazy"/></li>
+                           <li><img src="img/logo.png" data-original="img/slider/slid_a2_2.jpg" alt="" width="480" height="321" class="lazy"/></li>
+                           <li><img src="img/logo.png" data-original="img/slider/slid_a2_3.jpg" alt="" width="480" height="321" class="lazy"/></li>
+                           <li><img src="img/logo.png" data-original="img/slider/slid_a2_4.jpg" alt="" width="480" height="321" class="lazy"/></li>
+                           <li><img src="img/logo.png" data-original="img/slider/slid_a2_5.jpg" alt="" width="480" height="321" class="lazy"/></li>
+                           <li><img src="img/logo.png" data-original="img/slider/slid_a2_6.jpg" alt="" width="480" height="321" class="lazy"/></li>
+                           <li><img src="img/logo.png" data-original="img/slider/slid_a2_7.jpg" alt="" width="480" height="321" class="lazy"/></li>
+                           <li><img src="img/logo.png" data-original="img/slider/slid_a2_8.jpg" alt="" width="480" height="321" class="lazy"/></li>
+                           <li><img src="img/logo.png" data-original="img/slider/slid_a2_9.jpg" alt="" width="480" height="321" class="lazy"/></li>
+                           <li><img src="img/logo.png" data-original="img/slider/slid_a2_10.jpg" alt="" width="181" height="321" class="lazy"/></li>
+                           <li><img src="img/logo.png" data-original="img/slider/slid_a2_11.jpg" alt="" width="480" height="321" class="lazy"/></li>
+                           <li><img src="img/logo.png" data-original="img/slider/slid_a2_12.jpg" alt="" width="480" height="321" class="lazy"/></li>
+                           <li><img src="img/logo.png" data-original="img/slider/slid_a2_13.jpg" alt="" width="480" height="321" class="lazy"/></li>
+                           <li><img src="img/logo.png" data-original="img/slider/slid_a2_14.jpg" alt="" width="480" height="321" class="lazy"/></li>
                         </ul>                        
                         <div class="bx-pager1" id="slbxs2">
                             <a href="" data-slide-index="0" class="active"></a>
                             <a href="" data-slide-index="1"></a>
                             <a href="" data-slide-index="2"></a>
                             <a href="" data-slide-index="3"></a>
+                            <a href="" data-slide-index="4"></a>
+                            <a href="" data-slide-index="5"></a>
+                            <a href="" data-slide-index="6"></a>
+                            <a href="" data-slide-index="7"></a>
+                            <a href="" data-slide-index="8"></a>
+                            <a href="" data-slide-index="9"></a>
+                            <a href="" data-slide-index="10"></a>
+                            <a href="" data-slide-index="11"></a>
+                            <a href="" data-slide-index="12"></a>
+                            <a href="" data-slide-index="13"></a>
                         </div>
                     </div>
                     <div class="left">

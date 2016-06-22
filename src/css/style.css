@@ -127,7 +127,7 @@ form button:active,form button:hover{color:#fee1dc;background-color:#e6523c;-web
 .slid1_gr .right{float:right;width:60%;padding-left:13px}
 .slid1_gr .controls{clear:both;position:relative;z-index:4}
 .bxslider1{width:575px;height:384px;overflow:hidden}
-.bxslider1 img{width:575px;height:384px;float:right}
+.bxslider1 img{/* width:575px; */height:384px;/* float:right; */}
 .bx-pager1{width:575px;margin-top:14px;font-size:0;word-spacing:0;position:relative;float:right;padding-left:0!important}
 .pager-1{height:72px;/* width:1000px */}
 #smbx1p{width: 984px;}

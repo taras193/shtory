@@ -173,7 +173,7 @@
                         <ul class="bxslider1" id="small_bx_1">
                             <li><img src="img/logo.png" data-original="img/slider/slid_a1_1.jpg" alt="" width="575" height="384" class="lazy"/></li>
                             <li><img src="img/logo.png" data-original="img/slider/slid_a1_2.jpg" alt="" width="575" height="384" class="lazy"/></li>
-                            <li><img src="img/logo.png" data-original="img/slider/slid_a1_3.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid_a1_3.jpg" alt="" width="217" height="384" class="lazy"/></li>
                             <li><img src="img/logo.png" data-original="img/slider/slid_a1_4.jpg" alt="" width="575" height="384" class="lazy"/></li>
                             <li><img src="img/logo.png" data-original="img/slider/slid_a1_5.jpg" alt="" width="575" height="384" class="lazy"/></li>
                             <li><img src="img/logo.png" data-original="img/slider/slid_a1_6.jpg" alt="" width="575" height="384" class="lazy"/></li>
@@ -238,7 +238,7 @@
                             <li><img src="img/logo.png" data-original="img/slider/slid_a2_7.jpg" alt="" width="575" height="384" class="lazy"/></li>
                             <li><img src="img/logo.png" data-original="img/slider/slid_a2_8.jpg" alt="" width="575" height="384" class="lazy"/></li>
                             <li><img src="img/logo.png" data-original="img/slider/slid_a2_9.jpg" alt="" width="575" height="384" class="lazy"/></li>
-                            <li><img src="img/logo.png" data-original="img/slider/slid_a2_10.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid_a2_10.jpg" alt="" width="256" height="384" class="lazy"/></li>
                             <li><img src="img/logo.png" data-original="img/slider/slid_a2_11.jpg" alt="" width="575" height="384" class="lazy"/></li>
                             <li><img src="img/logo.png" data-original="img/slider/slid_a2_12.jpg" alt="" width="575" height="384" class="lazy"/></li>
                             <li><img src="img/logo.png" data-original="img/slider/slid_a2_13.jpg" alt="" width="575" height="384" class="lazy"/></li>
