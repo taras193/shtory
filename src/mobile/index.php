@@ -175,36 +175,42 @@
             <div class="slid1_wrap">
                 <div class="slid1_slide">
                     <div class="left">
-                        <h4>Офис1 на первом этаже в новом здании по ул. Ленина</h4>
+                        <h4>Ателье</h4>
                     </div>            
                     <div class="right">
                         <ul class="bxslider1" id="small_bx_1">
-                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="480" height="321" class="lazy"/></li>
-                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="480" height="321" class="lazy"/></li>
-                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="480" height="321" class="lazy"/></li>
-                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="480" height="321" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid_a1_1.jpg" alt="" width="480" height="321" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid_a1_2.jpg" alt="" width="480" height="321" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid_a1_3.jpg" alt="" width="480" height="321" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid_a1_4.jpg" alt="" width="480" height="321" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid_a1_5.jpg" alt="" width="480" height="321" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid_a1_6.jpg" alt="" width="480" height="321" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid_a1_7.jpg" alt="" width="480" height="321" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid_a1_8.jpg" alt="" width="480" height="321" class="lazy"/></li>
                         </ul>                        
                         <div class="bx-pager1" id="slbxs1">
                             <a href="" data-slide-index="0" class="active"></a>
                             <a href="" data-slide-index="1"></a>
                             <a href="" data-slide-index="2"></a>
                             <a href="" data-slide-index="3"></a>
+                            <a href="" data-slide-index="4"></a>
+                            <a href="" data-slide-index="5"></a>
+                            <a href="" data-slide-index="6"></a>
+                            <a href="" data-slide-index="7"></a>
                         </div>
                     </div>
                     <div class="left">
-                        <p>1Юных модниц и модников ждет концерт рэпера L’One и группы Mana Island, а также диджей-сэт S-Brother-S. </p>
+                        <p>- Наше ателье находится в нежилом помещении и совмещено с производством карнизов. <br><br>На производстве работают опытные технологи и швеи, а японское оборудование позволяет выполнять заказы любой сложности. Для нас нет невыполнимых задач!
+Часы работы с 10:00 до 22:00</p>
                     </div>
                 </div>
                 <div class="slid1_slide">
                     <div class="left">
-                        <h4>Офис1 на первом этаже в новом здании по ул. Ленина</h4>
+                        <h4>Салон</h4>
                     </div>                      
                     <div class="right">
                         <ul class="bxslider1" id="small_bx_2">
-                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="480" height="321" class="lazy"/></li>
-                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="480" height="321" class="lazy"/></li>
-                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="480" height="321" class="lazy"/></li>
-                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="480" height="321" class="lazy"/></li>
+                           <li><img src="img/logo.png" data-original="img/slider/slid_a2_1.jpg" alt="" width="480" height="321" class="lazy"/></li>
                         </ul>                        
                         <div class="bx-pager1" id="slbxs2">
                             <a href="" data-slide-index="0" class="active"></a>
@@ -214,29 +220,7 @@
                         </div>
                     </div>
                     <div class="left">
-                        <p>2Юных модниц и модников ждет концерт рэпера L’One и группы Mana Island, а также диджей-сэт S-Brother-S. </p>
-                    </div>
-                </div>
-                <div class="slid1_slide">
-                    <div class="left">
-                        <h4>Офис1 на первом этаже в новом здании по ул. Ленина</h4>
-                    </div>
-                    <div class="right">
-                        <ul class="bxslider1" id="small_bx_3">
-                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="480" height="321" class="lazy"/></li>
-                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="480" height="321" class="lazy"/></li>
-                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="480" height="321" class="lazy"/></li>
-                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="480" height="321" class="lazy"/></li>
-                        </ul>                        
-                        <div class="bx-pager1" id="slbxs3">
-                            <a href="" data-slide-index="0" class="active"></a>
-                            <a href="" data-slide-index="1"></a>
-                            <a href="" data-slide-index="2"></a>
-                            <a href="" data-slide-index="3"></a>
-                        </div>
-                    </div>
-                    <div class="left">
-                        <p>3Юных модниц и модников ждет концерт рэпера L’One и группы Mana Island, а также диджей-сэт S-Brother-S. </p>
+                        <p>- Салон находится на цокольном этаже ТЦ Грин. <br><br>В Салоне представлены более 15 тыс тканей и более 200 предметов интерьера. Опытные дизайнеры с многолетним стажем, всегда помогут создать интерьер Вашей мечты!</p>
                     </div>
                 </div>
             </div>
