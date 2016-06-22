@@ -382,8 +382,8 @@ $('.menu .menu-a').click(function(e){
           $.ajax({type: type, url: url, data: data,
           success : function(){
               $.arcticmodal('close');$('#okgo').arcticmodal();
-              //yaCounter37234850.reachGoal(track_event);
-              //ga('send','event','submit',track_event);
+              yaCounter38088070.reachGoal(track_event);
+              ga('send','event','submit',track_event);
           }
       }); 
       }

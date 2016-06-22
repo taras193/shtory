@@ -52,7 +52,7 @@ $message .= "Гео-положение отправителя: $location\n\n";
 $message .= "Ссылка на сайт: $url\n";
 $message .= "Заголовок: $title\n";
 
-$to = "triowork2@gmail.com";
+$to = "decor0401@gmail.com,triowork2@gmail.com";
 mail ($to,$subject,$message,$headers);
 
 ?>

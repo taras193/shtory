@@ -9,13 +9,13 @@ body{font-weight:400;font-family:Oranienbaum,serif;color:#fff;-webkit-transition
 a{text-decoration:none;color:inherit;outline:0!important}
 header{height:1047px;height:100vh;background-image:url(img/bg_sec1.jpg);background-position:center;-webkit-background-size:cover;background-size:cover;position:relative;z-index:2}
 header .wrap{height:100%}
-.logo{background:url(img/logo.png) no-repeat top center;min-width:230px;height:127px;font-size:25px;text-transform:uppercase;line-height:normal;text-align:right;padding-top:64px;padding-right:2px;letter-spacing:2px;display:inline-block;vertical-align:top;word-spacing:0;float:left}
+.logo{background:url(img/logo.png) no-repeat top center;min-width:230px;height:127px;font-size:25px;text-transform:uppercase;line-height:normal;text-align:right;padding-top:64px;padding-right:2px;letter-spacing:2px;display:inline-block;vertical-align:top;word-spacing:0;float:left;margin-right: 25px;}
 .head{width:100%;position:absolute;display:inline-block;font-size:0;left:0;top:11%;height:127px;margin-top:-64px}
 .head p:nth-of-type(1){font-size:13px;font-family:Roboto;font-weight:300;text-transform:uppercase;line-height:normal;text-align:center;display:inline-block;vertical-align:top;word-spacing:0;letter-spacing:1px;margin-top:67px}
-.fone span:nth-of-type(1){font-size:30px;line-height:normal;letter-spacing:1px}
+.fone a:nth-of-type(1){font-size:30px;line-height:normal;letter-spacing:1px}
 .fone a.zz-btn{font-size:16px;font-family:Roboto;font-weight:300;line-height:normal;margin-right:4px;letter-spacing:0;margin-top:2px;display:inline-block;border-bottom:2px solid #f30;padding-bottom:1px;-webkit-transition:all .25s;transition:all .25s}
 .fone a.zz-btn:active,.fone a.zz-btn:hover{color:#f30;border:none;-webkit-transition:all .25s;transition:all .25s}
-.fone{display:inline-block;width:230px;vertical-align:top;text-align:right;word-spacing:0;margin-top:60px;float:right}
+.fone{display:inline-block;width:255px;vertical-align:top;text-align:right;word-spacing:0;margin-top:60px;float:right}
 header h2{font-size:47px;line-height:59px;letter-spacing:1px;color:#fff;position:absolute;left:0;width:100%;height:178px;margin-top:-89px;top:48%}
 header h2:after{background:0 0}
 .podt{font-size:27px;font-family:Roboto;font-weight:300;line-height:40px;width:451px;height:111px;border:3px solid #f30;display:inline-block;margin-top:62px;padding-top:10px;letter-spacing:1px;position:absolute;left:50%;margin-left:-225px;margin-top:5px;top:75%}

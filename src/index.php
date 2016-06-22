@@ -3,7 +3,9 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=1200">
- <title>МАГИЯ ДЕКОРА</title>
+ <title>Индивидуальное дизайнерское оформление интерьера.</title>
+ <meta name="description" content="Дизайнерское оформление интерьера от компании с опытом 20 лет. Индивидуальное оформление штор и дополнений под ключ. Вдохновение в доме с нашим дизайном интерьера.">
+ <meta name="Keywords" content="оформление интерьера,оформление интерьера квартиры,оформление интерьера дома,оформление интерьера коттеджа,дизайн интерьера,дизайн интерьера дома,дизайн интерьера квартир,дизайн интерьера коттеджей,оформление штор,шторы +на окна,шторы +в интерьере,дизайн оформление штор,дизайн штор">
  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
  <script>if (screen.width <= 750) {document.location = "mobile/"+document.location.search;}</script>
 <style><?php include('css/head.css'); ?></style>
@@ -26,7 +28,7 @@
             <span class="logo">магия декора</span>
             <p>Интерьер мечты</p>
             <div class="fone">
-                <span>8 800 000 99 44</span>
+                <a href="tel:+74993224462">+7 (499) 322-44-62</a>
                 <a href="" class="zz-btn">Заказать звонок</a>
             </div>
         </div>
@@ -163,34 +165,55 @@
             <div class="slid1_wrap">
                 <div class="slid1_slide">                    
                     <div class="left">
-                        <h4>Офис1 на первом этаже<br> в новом здании <br>по ул. Ленина</h4>
-                        <p>Юных модниц и модников ждет<br> концерт рэпера L’One и группы<br> Mana Island, а также диджей-сэт<br> S-Brother-S. </p>
+                        <h4>Ателье</h4>
+                        <p>- Наше ателье находится в нежилом помещении и совмещено с производством карнизов. <br><br>На производстве работают опытные технологи и швеи, а японское оборудование позволяет выполнять заказы любой сложности. Для нас нет невыполнимых задач!
+Часы работы с 10:00 до 22:00</p>
                     </div>
                     <div class="right">
                         <ul class="bxslider1" id="small_bx_1">
-                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="575" height="384" class="lazy"/></li>
-                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="575" height="384" class="lazy"/></li>
-                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="575" height="384" class="lazy"/></li>
-                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid_a1_1.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid_a1_2.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid_a1_3.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid_a1_4.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid_a1_5.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid_a1_6.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid_a1_7.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid_a1_8.jpg" alt="" width="575" height="384" class="lazy"/></li>
                         </ul>                        
                         <div class="bx-pager1">
                             <div class="pager-1-w">
                                 <div class="pager-1" id="smbx1p">
                                     <a data-slide-index="0" href="" class="sl_hov">
                                         <span class="hov_sl"></span>
-                                        <img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="108" height="72" class="lazy"/>
+                                        <img src="img/logo.png" data-original="img/slider/slid_a1_1.jpg" alt="" width="108" height="72" class="lazy"/>
                                     </a>
                                     <a data-slide-index="1" href="" class="sl_hov">
                                         <span class="hov_sl"></span>
-                                        <img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="108" height="72" class="lazy"/>
+                                        <img src="img/logo.png" data-original="img/slider/slid_a1_2.jpg" alt="" width="108" height="72" class="lazy"/>
                                     </a>
                                     <a data-slide-index="2" href="" class="sl_hov">
                                         <span class="hov_sl"></span>
-                                        <img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="108" height="72" class="lazy"/>
+                                        <img src="img/logo.png" data-original="img/slider/slid_a1_3.jpg" alt="" width="108" height="72" class="lazy"/>
                                     </a>
                                     <a data-slide-index="3" href="" class="sl_hov">
                                         <span class="hov_sl"></span>
-                                        <img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="108" height="72" class="lazy"/>
+                                        <img src="img/logo.png" data-original="img/slider/slid_a1_4.jpg" alt="" width="108" height="72" class="lazy"/>
+                                    </a>
+                                    <a data-slide-index="4" href="" class="sl_hov">
+                                        <span class="hov_sl"></span>
+                                        <img src="img/logo.png" data-original="img/slider/slid_a1_5.jpg" alt="" width="108" height="72" class="lazy"/>
+                                    </a>
+                                    <a data-slide-index="5" href="" class="sl_hov">
+                                        <span class="hov_sl"></span>
+                                        <img src="img/logo.png" data-original="img/slider/slid_a1_6.jpg" alt="" width="108" height="72" class="lazy"/>
+                                    </a>
+                                    <a data-slide-index="6" href="" class="sl_hov">
+                                        <span class="hov_sl"></span>
+                                        <img src="img/logo.png" data-original="img/slider/slid_a1_7.jpg" alt="" width="108" height="72" class="lazy"/>
+                                    </a>
+                                    <a data-slide-index="7" href="" class="sl_hov">
+                                        <span class="hov_sl"></span>
+                                        <img src="img/logo.png" data-original="img/slider/slid_a1_8.jpg" alt="" width="108" height="72" class="lazy"/>
                                     </a>                        
                                 </div>
                             </div>
@@ -201,77 +224,90 @@
                 </div>
                 <div class="slid1_slide">                    
                     <div class="left">
-                        <h4>Офис2 на первом этаже<br> в новом здании <br>по ул. Ленина</h4>
-                        <p>Юных модниц и модников ждет<br> концерт рэпера L’One и группы<br> Mana Island, а также диджей-сэт<br> S-Brother-S. </p>
+                        <h4>Салон</h4>
+                        <p>- Салон находится на цокольном этаже ТЦ Грин. <br><br>
+В Салоне представлены более 15 тыс тканей и более 200 предметов интерьера. Опытные дизайнеры с многолетним стажем, всегда помогут создать интерьер Вашей мечты!</p>
                     </div>
                     <div class="right">
                         <ul class="bxslider1" id="small_bx_2">
-                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="575" height="384" class="lazy"/></li>
-                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="575" height="384" class="lazy"/></li>
-                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="575" height="384" class="lazy"/></li>
-                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid_a2_1.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid_a2_2.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid_a2_3.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid_a2_4.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid_a2_5.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid_a2_6.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid_a2_7.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid_a2_8.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid_a2_9.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid_a2_10.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid_a2_11.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid_a2_12.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid_a2_13.jpg" alt="" width="575" height="384" class="lazy"/></li>
+                            <li><img src="img/logo.png" data-original="img/slider/slid_a2_14.jpg" alt="" width="575" height="384" class="lazy"/></li>
                         </ul>                        
                         <div class="bx-pager1">
                             <div class="pager-1-w">
                                 <div class="pager-1" id="smbx2p">
                                     <a data-slide-index="0" href="" class="sl_hov">
                                         <span class="hov_sl"></span>
-                                        <img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="108" height="72" class="lazy"/>
+                                        <img src="img/logo.png" data-original="img/slider/slid_a2_1.jpg" alt="" width="108" height="72" class="lazy"/>
                                     </a>
                                     <a data-slide-index="1" href="" class="sl_hov">
                                         <span class="hov_sl"></span>
-                                        <img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="108" height="72" class="lazy"/>
+                                        <img src="img/logo.png" data-original="img/slider/slid_a2_2.jpg" alt="" width="108" height="72" class="lazy"/>
                                     </a>
                                     <a data-slide-index="2" href="" class="sl_hov">
                                         <span class="hov_sl"></span>
-                                        <img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="108" height="72" class="lazy"/>
+                                        <img src="img/logo.png" data-original="img/slider/slid_a2_3.jpg" alt="" width="108" height="72" class="lazy"/>
                                     </a>
                                     <a data-slide-index="3" href="" class="sl_hov">
                                         <span class="hov_sl"></span>
-                                        <img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="108" height="72" class="lazy"/>
+                                        <img src="img/logo.png" data-original="img/slider/slid_a2_4.jpg" alt="" width="108" height="72" class="lazy"/>
+                                    </a>
+                                    <a data-slide-index="4" href="" class="sl_hov">
+                                        <span class="hov_sl"></span>
+                                        <img src="img/logo.png" data-original="img/slider/slid_a2_5.jpg" alt="" width="108" height="72" class="lazy"/>
+                                    </a>
+                                    <a data-slide-index="5" href="" class="sl_hov">
+                                        <span class="hov_sl"></span>
+                                        <img src="img/logo.png" data-original="img/slider/slid_a2_6.jpg" alt="" width="108" height="72" class="lazy"/>
+                                    </a>
+                                    <a data-slide-index="6" href="" class="sl_hov">
+                                        <span class="hov_sl"></span>
+                                        <img src="img/logo.png" data-original="img/slider/slid_a2_7.jpg" alt="" width="108" height="72" class="lazy"/>
+                                    </a>
+                                    <a data-slide-index="7" href="" class="sl_hov">
+                                        <span class="hov_sl"></span>
+                                        <img src="img/logo.png" data-original="img/slider/slid_a2_8.jpg" alt="" width="108" height="72" class="lazy"/>
+                                    </a>
+                                    <a data-slide-index="8" href="" class="sl_hov">
+                                        <span class="hov_sl"></span>
+                                        <img src="img/logo.png" data-original="img/slider/slid_a2_9.jpg" alt="" width="108" height="72" class="lazy"/>
+                                    </a>
+                                    <a data-slide-index="9" href="" class="sl_hov">
+                                        <span class="hov_sl"></span>
+                                        <img src="img/logo.png" data-original="img/slider/slid_a2_10.jpg" alt="" width="108" height="72" class="lazy"/>
+                                    </a>
+                                    <a data-slide-index="10" href="" class="sl_hov">
+                                        <span class="hov_sl"></span>
+                                        <img src="img/logo.png" data-original="img/slider/slid_a2_11.jpg" alt="" width="108" height="72" class="lazy"/>
+                                    </a>
+                                    <a data-slide-index="11" href="" class="sl_hov">
+                                        <span class="hov_sl"></span>
+                                        <img src="img/logo.png" data-original="img/slider/slid_a2_12.jpg" alt="" width="108" height="72" class="lazy"/>
+                                    </a>
+                                    <a data-slide-index="12" href="" class="sl_hov">
+                                        <span class="hov_sl"></span>
+                                        <img src="img/logo.png" data-original="img/slider/slid_a2_13.jpg" alt="" width="108" height="72" class="lazy"/>
+                                    </a>
+                                    <a data-slide-index="13" href="" class="sl_hov">
+                                        <span class="hov_sl"></span>
+                                        <img src="img/logo.png" data-original="img/slider/slid_a2_14.jpg" alt="" width="108" height="72" class="lazy"/>
                                     </a>                        
                                 </div>
                             </div>
                             <span class="strm_l" id="slbx2l"></span>
                             <span class="strm_r" id="slbx2r"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="slid1_slide">                    
-                    <div class="left">
-                        <h4>Офис2 на первом этаже<br> в новом здании <br>по ул. Ленина</h4>
-                        <p>Юных модниц и модников ждет<br> концерт рэпера L’One и группы<br> Mana Island, а также диджей-сэт<br> S-Brother-S. </p>
-                    </div>
-                    <div class="right">
-                        <ul class="bxslider1" id="small_bx_3">
-                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="575" height="384" class="lazy"/></li>
-                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="575" height="384" class="lazy"/></li>
-                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="575" height="384" class="lazy"/></li>
-                            <li><img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="575" height="384" class="lazy"/></li>
-                        </ul>                        
-                        <div class="bx-pager1">
-                            <div class="pager-1-w">
-                                <div class="pager-1" id="smbx3p">
-                                    <a data-slide-index="0" href="" class="sl_hov">
-                                        <span class="hov_sl"></span>
-                                        <img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="108" height="72" class="lazy"/>
-                                    </a>
-                                    <a data-slide-index="1" href="" class="sl_hov">
-                                        <span class="hov_sl"></span>
-                                        <img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="108" height="72" class="lazy"/>
-                                    </a>
-                                    <a data-slide-index="2" href="" class="sl_hov">
-                                        <span class="hov_sl"></span>
-                                        <img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="108" height="72" class="lazy"/>
-                                    </a>
-                                    <a data-slide-index="3" href="" class="sl_hov">
-                                        <span class="hov_sl"></span>
-                                        <img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="108" height="72" class="lazy"/>
-                                    </a>                        
-                                </div>
-                            </div>
-                            <span class="strm_l" id="slbx3l"></span>
-                            <span class="strm_r" id="slbx3r"></span>
                         </div>
                     </div>
                 </div>
@@ -291,24 +327,31 @@
         <div class="bxslider2">
             <div class="bx-slider-2-w" id="bx_otz">
                 <div class="bx-slider-2-slide">
-                    <img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="575" height="384" class="lazy"/>
+                    <img src="img/logo.png" data-original="img/slider/slid_b1.jpg" alt="" width="575" height="384" class="lazy"/>
                     <div class="div">
-                        <h4>Смерч1<br>Василий Генадьевич</h4>
-                        <p>Планировка квартиры площадью 95 кв.м. в<br> многоэтажном доме была незначительно<br> изменена по желанию заказчика: мы<br> расширили гостиную, объединив ее с<br> лоджией, чтобы создать обеденную зону<br> возле окна. На все работы по<br> перепланировке было получено разрешение<br> и ушло около месяца. В качестве<br> напольного покрытия для гостиной был<br> выбран бельгийский ламинат, а для<br> детской, рабочего кабинета и спальни –<br> дубовая паркетная доска.</p>
+                        <h4>История первая</h4>
+                        <p>Работали в коттеджном поселке "Красный воин", все дома в этом поселке весьма неординарные и выполнены в современном стиле. В коттедже много сложных треугольных окон, на которые нужно было повесить легкую тюль. Основная проблема заключалась в том, что клиент хотел что бы тюль была в сантиметре от пола. Высчитывали высоту тюли и ее усадку в разных местах треугольного окна по миллиметрам, были использованы стопора вместо бегунков, для того что бы изделие висело ровно.</p>
                     </div>
                 </div>
                 <div class="bx-slider-2-slide">
-                    <img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="575" height="384" class="lazy"/>
+                    <img src="img/logo.png" data-original="img/slider/slid_b2.jpg" alt="" width="575" height="384" class="lazy"/>
                     <div class="div">
-                        <h4>Смерч2<br>Василий Генадьевич</h4>
-                        <p>Планировка квартиры площадью 95 кв.м. в<br> многоэтажном доме была незначительно<br> изменена по желанию заказчика: мы<br> расширили гостиную, объединив ее с<br> лоджией, чтобы создать обеденную зону<br> возле окна. На все работы по<br> перепланировке было получено разрешение<br> и ушло около месяца. В качестве<br> напольного покрытия для гостиной был<br> выбран бельгийский ламинат, а для<br> детской, рабочего кабинета и спальни –<br> дубовая паркетная доска.</p>
+                        <h4>История вторая</h4>
+                        <p>На большое окно клиент хотел сделать римские шторы. Проблема состояла в том, что заказчик хотел регулировать уровень света в своем кабинете, для этого он попросил сделать два отдельных карниза на свое большое окно. Дизайнер нашего салона предложил ему более экономичное и эстетичное решение. На окно была установлена римская штора с двумя управлениями на одном карнизе. Это позволило удовлетворить не только желание клиента, но и грамотно исполнив заказ сэкономить его бюджет.</p>
                     </div>
                 </div>
                 <div class="bx-slider-2-slide">
-                    <img src="img/logo.png" data-original="img/slider/slid1_b.jpg" alt="" width="575" height="384" class="lazy"/>
+                    <img src="img/logo.png" data-original="img/slider/slid_b3.jpg" alt="" width="575" height="384" class="lazy"/>
                     <div class="div">
-                        <h4>Смерч3<br>Василий Генадьевич</h4>
-                        <p>Планировка квартиры площадью 95 кв.м. в<br> многоэтажном доме была незначительно<br> изменена по желанию заказчика: мы<br> расширили гостиную, объединив ее с<br> лоджией, чтобы создать обеденную зону<br> возле окна. На все работы по<br> перепланировке было получено разрешение<br> и ушло около месяца. В качестве<br> напольного покрытия для гостиной был<br> выбран бельгийский ламинат, а для<br> детской, рабочего кабинета и спальни –<br> дубовая паркетная доска.</p>
+                        <h4>История третья</h4>
+                        <p>Зачастую в квартирах встречаются эркерные окна, с которыми люди не знают как поступить. Есть множество вариантов, один из них мы можем предложить, так как имеем собственное производство карнизов. А именно, алюминиевые карнизы трех цветов, которые выдерживают любой вес штор и выгибаются индивидуально под ваши размеры.</p>
+                    </div>
+                </div>
+                <div class="bx-slider-2-slide">
+                    <img src="img/logo.png" data-original="img/slider/slid_b4.jpg" alt="" width="575" height="384" class="lazy"/>
+                    <div class="div">
+                        <h4>История четвертая</h4>
+                        <p>В арендуемых помещениях зачастую встречаются проблемные окна, эта трудность возникает из-за того,  что арендодатели экономят на стройматериалах и затратах при ремонте помещения. А многие организации общественного питания стараются создать максимально комфортную и стильную атмосферу за счет интерьера. Выехав на объект одного из будущих ресторанов мы увидели, что расстояние между потолком и створкой отсутствует, то есть возможности закрепить обычный карниз нет. Но решение и этой проблемы все таки нашлось, мы установили самый тонкий профиль ширина которого всего 1 см. Он не только готов выдержать практически любой вес, но и установить его можно на любую поверхность стены или потолка.</p>
                     </div>
                 </div>
             </div>
@@ -334,7 +377,7 @@
             <button type="submit" value="Отправить">Отправить</button>
             </form>
             <div>
-                <span>8 800 000 99 44</span>
+                <a href="tel:+74993224462">+7 (499) 322-44-62</a>
                 <a href="" class="btn zz-btn">заказать звонок</a>
             </div>
         </div>
@@ -390,6 +433,22 @@
             <h3>Спасибо за заявку, наш менеджер свяжется с Вами в ближайшее время</h3>
         </div>
     </div>
+    <div class="vcard">
+ <div>
+   <span class="category">Дизайн интерьера</span>
+   <span class="fn org">Магия декора</span>
+ </div>
+ <div class="adr">
+   <span class="locality">Москва, Зеленоград</span>,
+   <span class="street-address">Панфиловский проспект, корпус 1550</span>
+ </div>
+ <div>Телефон: <span class="tel">+7 (499) 322-44-62</span></div>
+ <div>Мы работаем <span class="workhours">ежедневно с 10:00 до 22:00</span>
+   <span class="url">
+     <span class="value-title" title="http://decor-magic.ru/"> </span>
+   </span>
+ </div>
+</div>
 </div>
 <?php include('track/body.php'); ?>
 </body>

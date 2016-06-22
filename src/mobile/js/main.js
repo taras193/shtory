@@ -86,6 +86,7 @@ $(document).ready(function() {
       },
       onSliderLoad:function(){
         console.log('small_bx_1.loaded');
+$("#smbx1p").draggable({axis:'x',containment:"parent" });
       }
     });
 
@@ -110,6 +111,7 @@ $(document).ready(function() {
         console.log('small_bx_2.loaded');
       }
     });
+
 
   var small_bx_3 = $('#small_bx_3').bxSlider({
         infiniteLoop: true,
@@ -275,8 +277,8 @@ $('.menu .menu-a').click(function(e){
           $.ajax({type: type, url: url, data: data,
           success : function(){
               $.arcticmodal('close');$('#okgo').arcticmodal();
-              //yaCounter37234850.reachGoal(track_event);
-              //ga('send','event','submit',track_event);
+              yaCounter38088070.reachGoal(track_event);
+              ga('send','event','submit',track_event);
           }
       }); 
       }
