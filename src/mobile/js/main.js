@@ -86,7 +86,6 @@ $(document).ready(function() {
       },
       onSliderLoad:function(){
         console.log('small_bx_1.loaded');
-$("#smbx1p").draggable({axis:'x',containment:"parent" });
       }
     });
 

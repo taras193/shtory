@@ -181,7 +181,7 @@
                             <li><img src="img/logo.png" data-original="img/slider/slid_a1_8.jpg" alt="" width="575" height="384" class="lazy"/></li>
                         </ul>                        
                         <div class="bx-pager1">
-                            <div class="pager-1-w">
+                            <div class="pager-1-w" id="smbx1p-w">
                                 <div class="pager-1" id="smbx1p">
                                     <a data-slide-index="0" href="" class="sl_hov">
                                         <span class="hov_sl"></span>

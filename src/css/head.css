@@ -9,7 +9,7 @@ body{font-weight:400;font-family:Oranienbaum,serif;color:#fff;-webkit-transition
 a{text-decoration:none;color:inherit;outline:0!important}
 header{height:1047px;height:100vh;background-image:url(img/bg_sec1.jpg);background-position:center;-webkit-background-size:cover;background-size:cover;position:relative;z-index:2}
 header .wrap{height:100%}
-.logo{background:url(img/logo.png) no-repeat top center;min-width:230px;height:127px;font-size:25px;text-transform:uppercase;line-height:normal;text-align:right;padding-top:64px;padding-right:2px;letter-spacing:2px;display:inline-block;vertical-align:top;word-spacing:0;float:left;margin-right: 25px;}
+.logo{background:url(img/logo.png) no-repeat top center;min-width:230px;height:127px;font-size:25px;text-transform:uppercase;line-height:normal;text-align:right;padding-top:64px;padding-right:2px;letter-spacing:2px;display:inline-block;vertical-align:top;word-spacing:0;float:left;margin-right:25px}
 .head{width:100%;position:absolute;display:inline-block;font-size:0;left:0;top:11%;height:127px;margin-top:-64px}
 .head p:nth-of-type(1){font-size:13px;font-family:Roboto;font-weight:300;text-transform:uppercase;line-height:normal;text-align:center;display:inline-block;vertical-align:top;word-spacing:0;letter-spacing:1px;margin-top:67px}
 .fone a:nth-of-type(1){font-size:30px;line-height:normal;letter-spacing:1px}
