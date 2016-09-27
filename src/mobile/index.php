@@ -25,7 +25,7 @@
     <div class="wrap">
         <div class="head">
             <div class="fone">
-                <a href="tel:+74993224462">+7 (499) 322-44-62</a>
+                <a href="tel:+74993224462"><span class="lptracker_phone">+7 (499) 322-44-62</span></a>
                 <a href="" class="zz-btn">Заказать звонок</a>
             </div>
             <span class="logo">магия декора</span>
@@ -324,7 +324,7 @@
                         <textarea name="mess" placeholder="Вопрос"></textarea>
                         <button type="submit" value="Получить сейчас">Получить сейчас</button>
                     </form>
-                <a href="tel:+74993224462" class="click_fone">+7 (499) 322-44-62</a>
+                <a href="tel:+74993224462" class="click_fone"><span class="lptracker_phone">+7 (499) 322-44-62</span></a>
                 </div>
             </div>
     <div class="map" id="map"></div>
@@ -388,7 +388,7 @@
    <span class="locality">Москва, Зеленоград</span>,
    <span class="street-address">Панфиловский проспект, корпус 1550</span>
  </div>
- <div>Телефон: <span class="tel">+7 (499) 322-44-62</span></div>
+ <div>Телефон: <span class="tel lptracker_phone">+7 (499) 322-44-62</span></div>
  <div>Мы работаем <span class="workhours">ежедневно с 10:00 до 22:00</span>
    <span class="url">
      <span class="value-title" title="http://decor-magic.ru/"> </span>

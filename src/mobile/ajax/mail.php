@@ -51,8 +51,9 @@ $message .= "Тип соответствия ключа(e-точное/p-фра�
 $message .= "Гео-положение отправителя: $location\n\n";
 $message .= "Ссылка на сайт: $url\n";
 $message .= "Заголовок: $title\n";
+$message .= "<p>ip: {$_COOKIE["ip"]}</p>";
 
-$to = "decor0401@gmail.com,triowork2@gmail.com";
+$to = "decor0401@gmail.com,triowork2@gmail.com, basng.-.decor-magic.ru@lptracker.ru";
 mail ($to,$subject,$message,$headers);
 
 ?>
