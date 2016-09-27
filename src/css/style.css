@@ -146,8 +146,8 @@ form button:active,form button:hover{color:#fee1dc;background-color:#e6523c;-web
 .bx-slider-2-slide,.bx-slider-2-w{width:980px;height:384px}
 .bxslider2 img{float:left}
 .bxslider2 .div{float:right;width:40%;padding-left:17px}
-.bxslider2 h4{font-size:29px;color:#4a3b39;line-height:36px;text-align:left;letter-spacing:1px;position:relative;margin-top:-3px}
-.bxslider2 h4:after{content:"";background:#fc6f5a;width:25px;height:1px;position:absolute;left:0;top:65px}
+.bxslider2 h4{font-size:29px;color:#4a3b39;line-height:36px;text-align:left;letter-spacing:1px;position:relative;margin-top:-3px;height: 70px;}
+.bxslider2 h4:after{content:"";background:#fc6f5a;width:25px;height:1px;position:absolute;left:0;top: 75px;}
 .bxslider2 p{font-size:14px;font-family:Roboto;font-weight:300;color:#3a3a3a;line-height:21px;text-align:left;margin-top:42px;letter-spacing:0;width:340px}
 .bxslider2{position:relative}
 .bxslider2 span{-webkit-border-radius:50%;border-radius:50%;width:49px;height:49px;background-color:#f30;position:absolute}
