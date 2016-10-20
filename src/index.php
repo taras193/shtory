@@ -21,14 +21,16 @@
 <?php include('track/head.php'); ?>
 </head>
 <body>
-<div id="loader-wrap"><div class="loader"><div class="square square--main"><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div><div class="square square--mini"></div></div></div></div>
+<div class="cssload-container">
+        <div class="cssload-speeding-wheel"></div>
+    </div>
 <header id="m-sect1">
     <div class="wrap">
         <div class="head">
             <span class="logo">магия декора</span>
             <p>Интерьер мечты</p>
             <div class="fone">
-                <a href="tel:+74993224462"><span class="lptracker_phone">+7 (499) 322-44-62</span></a>
+                <a href="tel:+79056816464"><span class="lptracker_phone">+7 (905) 681-64-64</span></a>
                 <a href="" class="zz-btn">Заказать звонок</a>
             </div>
         </div>
@@ -376,7 +378,7 @@
             <button type="submit" value="Отправить">Отправить</button>
             </form>
             <div>
-                <a href="tel:+74993224462"><span class="lptracker_phone">+7 (499) 322-44-62</span></a>
+                <a href="tel:+79056816464"><span class="lptracker_phone">+7 (905) 681-64-64</span></a>
                 <a href="" class="btn zz-btn">заказать звонок</a>
             </div>
         </div>
@@ -385,6 +387,7 @@
 <footer>
     <div class="wrap">
         <span class="log_min">© 2016<br> Магия декора</span>
+        <a href="http://xn----btbjbbbyrp3a9e7bu.xn--p1ai/" target="_blank" class="bs"></a>
         <a href="" class="polit">Политика конфиденциальности</a>
         <p>Следите за нами<br> в соц. сетях:</p>
         <a href="https://www.instagram.com/salon__shtor/" class="ins" target="_blank"></a>
@@ -441,7 +444,7 @@
    <span class="locality">Москва, Зеленоград</span>,
    <span class="street-address">Панфиловский проспект, корпус 1550</span>
  </div>
- <div>Телефон: <span class="tel lptracker_phone">+7 (499) 322-44-62</span></div>
+ <div>Телефон: <span class="tel lptracker_phone">+7 (905) 681-64-64</span></div>
  <div>Мы работаем <span class="workhours">ежедневно с 10:00 до 22:00</span>
    <span class="url">
      <span class="value-title" title="http://decor-magic.ru/"> </span>

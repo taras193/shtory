@@ -177,10 +177,11 @@ textarea{border:0;outline:0;display:inline-block;vertical-align:top}
 .sec8 .form_gr .btn:active,.sec8 .form_gr .btn:hover{background:url(../img/fone.png) no-repeat left}
 footer{background-color:#4a3b39;height:108px;padding-top:15px;position:relative;z-index:2}
 .log_min{font-size:12px;color:#b9b1b0;line-height:16px;text-align:left;font-family:Roboto;font-weight:300;background:url(../img/log_min.png) no-repeat top left;min-height:63px;float:left;padding-left:31px;letter-spacing:1px;padding-top:23px}
-.polit{font-size:14px;font-family:Roboto;font-weight:300;color:#b9b1b0;line-height:normal;text-decoration:underline;float:left;margin-left:106px;letter-spacing:0;margin-top:32px}
+.polit{font-size:14px;font-family:Roboto;font-weight:300;color:#b9b1b0;line-height:normal;text-decoration:underline;float:left;margin-left: 10px;letter-spacing:0;margin-top:32px;}
 .polit:hover{text-decoration:none}
-footer p{font-size:14px;font-family:Roboto;font-weight:300;color:#fff;line-height:17px;text-align:left;float:left;margin-top:21px;margin-left:65px;letter-spacing:0}
-.gulf{font-size:14px;font-family:Roboto;font-weight:300;color:#b9b1b0;line-height:normal;text-align:left;background:url(../img/gulf.png) no-repeat left bottom;display:inline-block;float:right;min-width:159px;min-height:57px;margin-top:7px;margin-right:33px;letter-spacing:0}
+footer p{font-size:14px;font-family:Roboto;font-weight:300;color:#fff;line-height:17px;text-align:left;float:left;margin-top:21px;margin-left: 34px;letter-spacing:0;}
+.gulf{font-size:14px;font-family:Roboto;font-weight:300;color:#b9b1b0;line-height:normal;text-align:left;background:url(../img/gulf.png) no-repeat left bottom;display:inline-block;float:right;min-width:159px;min-height:57px;margin-top:7px;margin-right: 0;letter-spacing:0;}
+.bs{background:url(../img/bs.png) no-repeat left bottom;display:inline-block;min-width: 175px;min-height: 38px;float: left;background-size: contain;margin: 21px 20px 0px;}
 .ins{background:url(../img/ins.png) no-repeat center;width:20px;height:21px;display:inline-block;float:left;margin-top:30px;margin-left:30px;-webkit-transition:all .25s;transition:all .25s}
 .ins:hover{-webkit-filter:grayscale(1)}
 .vk:hover{-webkit-filter:grayscale(1)}

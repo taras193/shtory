@@ -141,6 +141,7 @@ $(document).ready(function() {
         go_to_slide(1);
       }
     });
+$('.cssload-container').fadeOut(250);
 
     $('.ui-slider-handle').mousedown(function(){
       $('.liner .before,.first-slider-lint').addClass('ui-state-active');
