@@ -30,7 +30,7 @@
             <span class="logo">магия декора</span>
             <p>Интерьер мечты</p>
             <div class="fone">
-                <a href="tel:+79056816464"><span class="lptracker_phone">+7 (905) 681-64-64</span></a>
+                <a href="tel:+79055816464"><span class="lptracker_phone">+7 (905) 581-64-64</span></a>
                 <a href="" class="zz-btn">Заказать звонок</a>
             </div>
         </div>
@@ -378,7 +378,7 @@
             <button type="submit" value="Отправить">Отправить</button>
             </form>
             <div>
-                <a href="tel:+79056816464"><span class="lptracker_phone">+7 (905) 681-64-64</span></a>
+                <a href="tel:+79055816464"><span class="lptracker_phone">+7 (905) 581-64-64</span></a>
                 <a href="" class="btn zz-btn">заказать звонок</a>
             </div>
         </div>
@@ -444,7 +444,7 @@
    <span class="locality">Москва, Зеленоград</span>,
    <span class="street-address">Панфиловский проспект, корпус 1550</span>
  </div>
- <div>Телефон: <span class="tel lptracker_phone">+7 (905) 681-64-64</span></div>
+ <div>Телефон: <span class="tel lptracker_phone">+7 (905) 581-64-64</span></div>
  <div>Мы работаем <span class="workhours">ежедневно с 10:00 до 22:00</span>
    <span class="url">
      <span class="value-title" title="http://decor-magic.ru/"> </span>
